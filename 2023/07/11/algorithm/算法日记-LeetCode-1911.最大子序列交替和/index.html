@@ -18,9 +18,11 @@
 <meta property="og:description" content="算法日记-LeetCode-1911.最大子序列交替和原题链接：1911. 最大子序列交替和 - 力扣（LeetCode）">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-07-11T15:05:00.000Z">
-<meta property="article:modified_time" content="2023-07-12T14:36:01.107Z">
+<meta property="article:modified_time" content="2023-07-12T15:27:45.653Z">
 <meta property="article:author" content="Naskete">
 <meta property="article:tag" content="算法">
+<meta property="article:tag" content="leetcode">
+<meta property="article:tag" content="JAVA">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Naskete&#39;s Blog" type="application/atom+xml">
@@ -258,8 +260,6 @@
 
 <h3 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h3><h4 id="暴力解"><a href="#暴力解" class="headerlink" title="暴力解"></a>暴力解</h4><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><h4 id="暴力解——超出内存限制"><a href="#暴力解——超出内存限制" class="headerlink" title="暴力解——超出内存限制"></a>暴力解——超出内存限制</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">long</span> <span class="title">maxAlternatingSum</span><span class="params">(<span class="keyword">int</span>[] nums)</span> </span>&#123;</span><br><span class="line">        List&lt;Integer&gt; list = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        <span class="keyword">int</span> n = nums.length;</span><br><span class="line">        getAlternatingSubSequenceSum(nums, <span class="number">0</span>, n, <span class="number">0</span>, <span class="number">1</span>, list);</span><br><span class="line">        <span class="keyword">int</span> max = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> v : list) &#123;</span><br><span class="line">            max = Math.max(v, max);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> max;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">getAlternatingSubSequenceSum</span><span class="params">(<span class="keyword">int</span>[] nums, <span class="keyword">int</span> cur, <span class="keyword">int</span> len, <span class="keyword">int</span> val, </span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> flag, List&lt;Integer&gt; value)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (cur == len) &#123;</span><br><span class="line">            value.add(val);</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> add =val + flag * nums[cur];</span><br><span class="line">        getAlternatingSubSequenceSum(nums, cur + <span class="number">1</span>, len, add, -flag, value);</span><br><span class="line">        <span class="keyword">int</span> next = val;</span><br><span class="line">        getAlternatingSubSequenceSum(nums, cur + <span class="number">1</span>, len, next, flag, value);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-
-
     
 
     
@@ -296,6 +296,14 @@
 			 
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">leetcode</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">JAVA</a>
         		</li>
       		
 		</ul>
@@ -537,15 +545,11 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">JAVA</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">单调栈</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">leetcode</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">JAVA</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -557,6 +561,10 @@
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">单调栈</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">java</a>
               </li>
              
@@ -565,15 +573,15 @@
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">redis</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">ArrayList</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Iterator</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">redis</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -609,7 +617,7 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">docker</a>
+                <a href="javascript:void(0)" class="js-tag color4">dfs</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -617,7 +625,7 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">dfs</a>
+                <a href="javascript:void(0)" class="js-tag color2">docker</a>
               </li>
             
             <div class="clearfix"></div>
