@@ -10,16 +10,24 @@
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta property="og:type" content="article">
+  <meta name="description" content="算法日记-LeetCode-931.下降路径最小和原题链接：931. 下降路径最小和 - 力扣（LeetCode）">
+<meta property="og:type" content="article">
 <meta property="og:title" content="算法日记-LeetCode-931-下降路径最小和">
 <meta property="og:url" content="https://naskete.github.io/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/index.html">
 <meta property="og:site_name" content="Naskete&#39;s Blog">
+<meta property="og:description" content="算法日记-LeetCode-931.下降路径最小和原题链接：931. 下降路径最小和 - 力扣（LeetCode）">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://naskete.github.io/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/example.png">
+<meta property="og:image" content="https://naskete.github.io/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/model.png">
+<meta property="og:image" content="https://naskete.github.io/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/trans.png">
 <meta property="article:published_time" content="2023-07-13T15:53:07.000Z">
-<meta property="article:modified_time" content="2023-07-13T15:53:07.381Z">
+<meta property="article:modified_time" content="2023-07-16T07:20:05.589Z">
 <meta property="article:author" content="Naskete">
+<meta property="article:tag" content="JAVA">
 <meta property="article:tag" content="算法">
+<meta property="article:tag" content="leetcode">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://naskete.github.io/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/example.png">
   
     <link rel="alternative" href="/atom.xml" title="Naskete&#39;s Blog" type="application/atom+xml">
   
@@ -227,7 +235,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">0字</span>
+      <span class="post-count">588字</span>
     </span>
   </span>
 
@@ -236,7 +244,7 @@
     <span class="post-meta-item-icon">
       <i class="icon-book icon"></i>
       <span class="post-meta-item-text"> 阅读时长≈</span>
-      <span class="post-count">1分</span>
+      <span class="post-count">2分</span>
     </span>
   </span>
 </div>
@@ -247,7 +255,32 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <a id="more"></a>
+    <h1 id="算法日记-LeetCode-931-下降路径最小和"><a href="#算法日记-LeetCode-931-下降路径最小和" class="headerlink" title="算法日记-LeetCode-931.下降路径最小和"></a>算法日记-LeetCode-931.下降路径最小和</h1><p>原题链接：<a href="https://leetcode.cn/problems/minimum-falling-path-sum/" target="_blank" rel="noopener">931. 下降路径最小和 - 力扣（LeetCode）</a></p>
+<a id="more"></a>
+
+<h3 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h3><p>给定一个n x n的矩阵 matrix，求出通过 matrix 的<strong>下降路径</strong> 的<strong>最小和</strong> 。</p>
+<p><strong>下降路径</strong>：从第一行中的任意元素开始往下，往下的过程中可以选择左下，正下，右下方的元素，即(i, j) 可以选择(i + 1, j - 1)，(i + 1, j)，(i + 1, j + 1)作为下一个元素。</p>
+<p>示例</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入：matrix = [[<span class="number">2</span>,<span class="number">1</span>,<span class="number">3</span>],[<span class="number">6</span>,<span class="number">5</span>,<span class="number">4</span>],[<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>]]</span><br><span class="line">输出：<span class="number">13</span></span><br></pre></td></tr></table></figure>
+
+<img src="/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/example.png" class title="loading-ag-1028">
+
+
+
+<h3 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h3><p>这题是dp问题，也就是动态规划类的问题，我们需要找出状态转移方程。</p>
+<p>根据题意，我们知道，我们从上往下走，可以从当前行元素，选择下一行中的特定三个值。</p>
+<img src="/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/model.png" class title="loading-ag-1030">
+
+<p>通过dp数组记录答案，dp[i][j]表示的是，从第一行到(i,j)位置的下降路径最小和，即dp数组中的每一个元素都是对应位置所求的答案。最后我们只要在最后一行，即dp[n - 1]中，找到最小值即可。</p>
+<p>dp[i][j]的值，是martix[i][j]与上一行中三个相关位置的值，依赖关系如下：</p>
+<img src="/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/trans.png" class title="loading-ag-1032">
+
+<p>所以可以得到转移方程</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">dp[i][j] = martix[i][j] + min(dp[i - <span class="number">1</span>][j-<span class="number">1</span>], dp[i - <span class="number">1</span>][j], dp[i - <span class="number">1</span>][j + <span class="number">1</span>])</span><br></pre></td></tr></table></figure>
+
+<p>即矩阵中的当前值，和dp数组中，可能到达给位置的最小值的和</p>
+<p>需要注意边界，dp[i][0]，dp[i][n - 1]，这两个位置一个在最左边，一个在最右边，只与上一行中的两个值有关。</p>
+<h3 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">minFallingPathSum</span><span class="params">(<span class="keyword">int</span>[][] matrix)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> n = matrix.length;</span><br><span class="line">        <span class="keyword">int</span>[][] dp = <span class="keyword">new</span> <span class="keyword">int</span>[n][n];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">            dp[<span class="number">0</span>][i] = matrix[<span class="number">0</span>][i];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (n == <span class="number">1</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> dp[<span class="number">0</span>][<span class="number">0</span>];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (j == <span class="number">0</span>) &#123;</span><br><span class="line">                    dp[i][j] = matrix[i][j] + Math.min(dp[i - <span class="number">1</span>][j], dp[i - <span class="number">1</span>][j + <span class="number">1</span>]);</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (j == n - <span class="number">1</span>) &#123;</span><br><span class="line">                    dp[i][j] = matrix[i][j] + Math.min(dp[i - <span class="number">1</span>][j - <span class="number">1</span>], dp[i - <span class="number">1</span>][j]);</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    dp[i][j] = matrix[i][j] + Math.min(Math.min(dp[i - <span class="number">1</span>][j - <span class="number">1</span>], dp[i - <span class="number">1</span>][j]), dp[i - <span class="number">1</span>][j + <span class="number">1</span>]);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> min = dp[n - <span class="number">1</span>][<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; i++) &#123;</span><br><span class="line">            min = Math.min(min, dp[n - <span class="number">1</span>][i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// int min = Arrays.stream(dp[n - 1]).min().getAsInt();</span></span><br><span class="line">        <span class="keyword">return</span> min;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
     
 
@@ -284,7 +317,15 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">JAVA</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">leetcode</a>
         		</li>
       		
 		</ul>
@@ -365,6 +406,15 @@
 
 
 <nav id="article-nav">
+  
+    <a href="/2023/07/15/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-18.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          算法日记-LeetCode-18.四数之和
+        
+      </div>
+    </a>
   
   
     <a href="/2023/07/12/essay/%E5%9C%A8%E6%9C%8D%E5%8A%A1%E8%BF%90%E8%A1%8Ckafka/" id="article-nav-older" class="article-nav-link-wrap">
@@ -505,6 +555,10 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">JAVA</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">算法</a>
               </li>
              
@@ -521,7 +575,7 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">JAVA</a>
+                <a href="javascript:void(0)" class="js-tag color4">单调栈</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -533,10 +587,6 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">单调栈</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">java</a>
               </li>
              
@@ -545,15 +595,15 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">redis</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">ArrayList</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Iterator</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">redis</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -589,11 +639,11 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">dfs</a>
+                <a href="javascript:void(0)" class="js-tag color5">yaml</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">yaml</a>
+                <a href="javascript:void(0)" class="js-tag color4">dfs</a>
               </li>
              
               <li class="article-tag-list-item">
