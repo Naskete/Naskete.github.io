@@ -35,11 +35,11 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
       <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
   </entry>
   
@@ -62,11 +62,11 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
       <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
   </entry>
   
@@ -104,11 +104,11 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
       <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
   </entry>
   
@@ -131,11 +131,11 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
       <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
   </entry>
   
@@ -144,9 +144,9 @@
     <link href="https://naskete.github.io/2023/07/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-111.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6/"/>
     <id>https://naskete.github.io/2023/07/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-111.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6/</id>
     <published>2023-07-10T15:15:57.000Z</published>
-    <updated>2023-07-16T06:46:20.848Z</updated>
+    <updated>2023-07-16T13:26:18.992Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-111-二叉树的最小深度"><a href="#算法日记-LeetCode-111-二叉树的最小深度" class="headerlink" title="算法日记-LeetCode-111.二叉树的最小深度"></a>算法日记-LeetCode-111.二叉树的最小深度</h1><p>原题链接：<a href="https://leetcode.cn/problems/minimum-depth-of-binary-tree/" target="_blank" rel="noopener">111. 二叉树的最小深度 - 力扣（LeetCode）</a></p><a id="more"></a><h3 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h3><p>给定一颗二叉树，要求给出根节点到最近的叶子节点的路径所包含的节点个数。</p><img title src="/2023/07/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-111.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6/example.png" alt="loading-ag-1074" data-align="center"><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入：root = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="keyword">null</span>,<span class="keyword">null</span>,<span class="number">4</span>,<span class="number">5</span>]</span><br><span class="line">输出：<span class="number">2</span></span><br></pre></td></tr></table></figure><h3 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h3><h4 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h4><p>叶子节点，其左右子树都为null；我们可以通过判断左右子树来确定叶子节点，然后就需要计算出根节点到当前叶子节点的路径中包含了多少节点。如何获取根节点到叶子节点的路径所包含的节点个数？我们可以这样计算，将二叉树简化为一个根节点和左右两个子树。</p><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><p>递归解法：</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">minDepth</span><span class="params">(TreeNode root)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (root == <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root.left == <span class="keyword">null</span> &amp;&amp; root.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span> + minDepth(root.right);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root.right == <span class="keyword">null</span> &amp;&amp; root.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span> + minDepth(root.left);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span> + Math.min(minDepth(root.left), minDepth(root.right));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-111-二叉树的最小深度"><a href="#算法日记-LeetCode-111-二叉树的最小深度" class="headerlink" title="算法日记-LeetCode-111.二叉树的最小深度"></a>算法日记-LeetCode-111.二叉树的最小深度</h1><p>原题链接：<a href="https://leetcode.cn/problems/minimum-depth-of-binary-tree/" target="_blank" rel="noopener">111. 二叉树的最小深度 - 力扣（LeetCode）</a></p><a id="more"></a><h3 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h3><p>给定一颗二叉树，要求给出根节点到最近的叶子节点的路径所包含的节点个数。</p><img title src="/2023/07/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-111.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6/example.png" alt="loading-ag-1074" data-align="center"><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入：root = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="keyword">null</span>,<span class="keyword">null</span>,<span class="number">4</span>,<span class="number">5</span>]</span><br><span class="line">输出：<span class="number">2</span></span><br><span class="line">说明：<span class="number">1</span> -&gt; <span class="number">2</span> 共两个节点</span><br></pre></td></tr></table></figure><h3 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h3><h4 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h4><p>叶子节点，其左右子树都为null；我们可以通过判断左右子树来确定叶子节点，然后就需要计算出根节点到当前叶子节点的路径中包含了多少节点。</p><p>如何获取根节点到叶子节点的路径所包含的节点个数？</p><p>我们可以这样计算，将二叉树简化为一个根节点和左右两个子树。</p><p>根节点到其左子节点的距离就是1（根节点） + 左子节点的对应值</p><p>即我们可以不断的从子树获取所需的信息，然后进行相关的计算。</p><p>例如：</p><img src="/2023/07/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-111.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6/des.png" class><p>这里我们要得到节点1到叶子节点4包含的节点数</p><ul><li><p>从节点4开始，往左右子节点取值，左右子节点为空，返回0，算上本身，所以是1；</p></li><li><p>然后到节点3，节点3到节点4，节点3自己算一个，所以是1，然后获取节点4的对应值也是1，所以节点3到节点4的距离，可以记录为1（节点3自己） + 1（节点4的值） = 2</p></li><li><p>然后节点1到节点4经过右子节点3，节点1本身加上节点3到节点4的距离2，最后得到节点1到节点4的距离 1 + 2 = 3</p></li></ul><p>故按照这个思路，我们可以求得根节点到每一个叶子节点的值，最后取其中最小的即为符合题意的解。</p><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><p>递归解法：</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">minDepth</span><span class="params">(TreeNode root)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (root == <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root.left == <span class="keyword">null</span> &amp;&amp; root.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span> + minDepth(root.right);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root.right == <span class="keyword">null</span> &amp;&amp; root.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span> + minDepth(root.left);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span> + Math.min(minDepth(root.left), minDepth(root.right));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -158,11 +158,11 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
       <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
   </entry>
   
@@ -185,11 +185,11 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
       <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
   </entry>
   
@@ -212,11 +212,11 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
       <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
   </entry>
   
