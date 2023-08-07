@@ -203,7 +203,7 @@
             
 
   
-    <article id="algorithm-algorithm/java中的反转操作（一）" class="article article-type-algorithm  article-index" itemscope itemprop="blogPost">
+    <article id="algorithm-algorithm/算法日记-105.从前序遍历和中序遍历构造二叉树" class="article article-type-algorithm  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -211,7 +211,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/2023/02/19/algorithm/java%E4%B8%AD%E7%9A%84%E5%8F%8D%E8%BD%AC%E6%93%8D%E4%BD%9C%EF%BC%88%E4%B8%80%EF%BC%89/" target="_blank">JAVA中的反转操作（一）</a>
+	  <a class="article-title" href="/2023/07/23/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-105.%E4%BB%8E%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E5%92%8C%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/" target="_blank">算法日记-105-从前序遍历和中序遍历构造二叉树</a>
   
     </h1>
   
@@ -219,8 +219,8 @@
 
   
   
-<a href="/2023/02/19/algorithm/java%E4%B8%AD%E7%9A%84%E5%8F%8D%E8%BD%AC%E6%93%8D%E4%BD%9C%EF%BC%88%E4%B8%80%EF%BC%89/" class="archive-article-date">
-        <time datetime="2023-02-19T13:49:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-02-19</time>
+<a href="/2023/07/23/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-105.%E4%BB%8E%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E5%92%8C%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/" class="archive-article-date">
+        <time datetime="2023-07-23T15:49:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-07-23</time>
 </a>
 
   
@@ -232,9 +232,310 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h1 id="JAVA中的反转操作（一）——-字符串"><a href="#JAVA中的反转操作（一）——-字符串" class="headerlink" title="JAVA中的反转操作（一）—— 字符串"></a>JAVA中的反转操作（一）—— 字符串</h1><h3 id="转换为char数组"><a href="#转换为char数组" class="headerlink" title="转换为char数组"></a>转换为char数组</h3>
+    <h1 id="算法日记-LeetCode-105-从前序遍历和中序遍历构造二叉树"><a href="#算法日记-LeetCode-105-从前序遍历和中序遍历构造二叉树" class="headerlink" title="算法日记-LeetCode-105-从前序遍历和中序遍历构造二叉树"></a>算法日记-LeetCode-105-从前序遍历和中序遍历构造二叉树</h1><p>原题链接：  </p>
+
     
-    <a class="article-more-a" href="/2023/02/19/algorithm/java%E4%B8%AD%E7%9A%84%E5%8F%8D%E8%BD%AC%E6%93%8D%E4%BD%9C%EF%BC%88%E4%B8%80%EF%BC%89/#more">more >></a>
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">JAVA</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">leetcode</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">二叉树</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/算法//" class="article-tag-list-link color3">算法</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2023/07/23/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-105.%E4%BB%8E%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E5%92%8C%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="algorithm-algorithm/算法日记-99.恢复二叉搜索树" class="article article-type-algorithm  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2023/07/21/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-99.%E6%81%A2%E5%A4%8D%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/" target="_blank">算法日记-99-恢复二叉搜索树</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2023/07/21/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-99.%E6%81%A2%E5%A4%8D%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/" class="archive-article-date">
+        <time datetime="2023-07-21T13:35:38.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-07-21</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="算法日记-LeetCode-99-恢复二叉搜索树"><a href="#算法日记-LeetCode-99-恢复二叉搜索树" class="headerlink" title="算法日记-LeetCode-99-恢复二叉搜索树"></a>算法日记-LeetCode-99-恢复二叉搜索树</h1>
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">JAVA</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">leetcode</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/算法//" class="article-tag-list-link color3">算法</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2023/07/21/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-99.%E6%81%A2%E5%A4%8D%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="algorithm-algorithm/算法日记-918.环形子数组的最大和" class="article article-type-algorithm  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2023/07/20/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-918.%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/" target="_blank">算法日记-918-环形子数组的最大和</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2023/07/20/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-918.%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/" class="archive-article-date">
+        <time datetime="2023-07-20T14:33:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-07-20</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="算法日记-LeetCode-918-环形子数组的最大和"><a href="#算法日记-LeetCode-918-环形子数组的最大和" class="headerlink" title="算法日记-LeetCode-918.环形子数组的最大和"></a>算法日记-LeetCode-918.环形子数组的最大和</h1><p>原题链接：</p>
+    
+    <a class="article-more-a" href="/2023/07/20/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-918.%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/#more">more >></a>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+    
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/算法//" class="article-tag-list-link color3">算法</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2023/07/20/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-918.%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="algorithm-algorithm/算法日记-874.模拟行走机器人" class="article article-type-algorithm  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2023/07/19/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-874.%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA/" target="_blank">算法日记-874-模拟行走机器人</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2023/07/19/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-874.%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA/" class="archive-article-date">
+        <time datetime="2023-07-19T12:39:40.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-07-19</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="算法日记-LeetCode-874-模拟行走机器人"><a href="#算法日记-LeetCode-874-模拟行走机器人" class="headerlink" title="算法日记-LeetCode-874.模拟行走机器人"></a>算法日记-LeetCode-874.模拟行走机器人</h1><p>原题链接：<a href="https://leetcode.cn/problems/walking-robot-simulation/" target="_blank" rel="noopener">874. 模拟行走机器人 - 力扣（LeetCode）</a></p>
+    
+    <a class="article-more-a" href="/2023/07/19/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-874.%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA/#more">more >></a>
     
     
 
@@ -257,6 +558,10 @@
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
         		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">leetcode</a>
+        		</li>
       		
 		</ul>
 	</div>
@@ -276,7 +581,7 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/2023/02/19/algorithm/java%E4%B8%AD%E7%9A%84%E5%8F%8D%E8%BD%AC%E6%93%8D%E4%BD%9C%EF%BC%88%E4%B8%80%EF%BC%89/">展开全文 >></a>
+      <a class="article-more-a" href="/2023/07/19/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-874.%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA/">展开全文 >></a>
     </p>
     
 
@@ -306,7 +611,7 @@
 
 
   
-    <article id="post-essay/java中的Queue、Stack、PriorityQueue" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="algorithm-algorithm/算法日记-415.字符串相加" class="article article-type-algorithm  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -314,7 +619,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/2023/02/19/essay/java%E4%B8%AD%E7%9A%84Queue%E3%80%81Stack%E3%80%81PriorityQueue/" target="_blank">java中的Queue、Stack、PriorityQueue</a>
+	  <a class="article-title" href="/2023/07/17/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-415.%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0/" target="_blank">算法日记-415-字符串相加</a>
   
     </h1>
   
@@ -322,8 +627,8 @@
 
   
   
-<a href="/2023/02/19/essay/java%E4%B8%AD%E7%9A%84Queue%E3%80%81Stack%E3%80%81PriorityQueue/" class="archive-article-date">
-        <time datetime="2023-02-19T11:56:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-02-19</time>
+<a href="/2023/07/17/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-415.%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0/" class="archive-article-date">
+        <time datetime="2023-07-17T13:31:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-07-17</time>
 </a>
 
   
@@ -335,9 +640,108 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h1 id="java中的Queue、Stack、PriorityQueue"><a href="#java中的Queue、Stack、PriorityQueue" class="headerlink" title="java中的Queue、Stack、PriorityQueue"></a>java中的Queue、Stack、PriorityQueue</h1><p>算法中除去常用的ArrayList、LinkedList，还会用到Queue、Stack、PriorityQueue等结构</p>
+    <h1 id="算法日记-LeetCode-415-字符串相加"><a href="#算法日记-LeetCode-415-字符串相加" class="headerlink" title="算法日记-LeetCode-415.字符串相加"></a>算法日记-LeetCode-415.字符串相加</h1><p>原题链接：<a href="https://leetcode.cn/problems/add-strings/" target="_blank" rel="noopener">415. 字符串相加 - 力扣（LeetCode）</a></p>
     
-    <a class="article-more-a" href="/2023/02/19/essay/java%E4%B8%AD%E7%9A%84Queue%E3%80%81Stack%E3%80%81PriorityQueue/#more">more >></a>
+    <a class="article-more-a" href="/2023/07/17/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-415.%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0/#more">more >></a>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/算法//" class="article-tag-list-link color3">算法</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2023/07/17/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-415.%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="algorithm-algorithm/算法日记-LeetCode-94.二叉树的中序遍历" class="article article-type-algorithm  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2023/07/16/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-94.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86/" target="_blank">算法日记-LeetCode-94.二叉树的中序遍历</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2023/07/16/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-94.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86/" class="archive-article-date">
+        <time datetime="2023-07-16T14:26:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-07-16</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="算法日记-LeetCode-94-二叉树的中序遍历"><a href="#算法日记-LeetCode-94-二叉树的中序遍历" class="headerlink" title="算法日记-LeetCode-94.二叉树的中序遍历"></a>算法日记-LeetCode-94.二叉树的中序遍历</h1><p>原题链接：<a href="https://leetcode.cn/problems/binary-tree-inorder-traversal/description/" target="_blank" rel="noopener">94. 二叉树的中序遍历 - 力扣（LeetCode）</a></p>
+    
+    <a class="article-more-a" href="/2023/07/16/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-94.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86/#more">more >></a>
     
     
 
@@ -358,114 +762,36 @@
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Queue</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Stack</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">leetcode</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">PriorityQueue</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">二叉树</a>
         		</li>
       		
 		</ul>
 	</div>
 
     
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2023/02/19/essay/java%E4%B8%AD%E7%9A%84Queue%E3%80%81Stack%E3%80%81PriorityQueue/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-essay/解决Docker permission denied" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2023/02/02/essay/%E8%A7%A3%E5%86%B3Docker%20permission%20denied/" target="_blank">解决docker permission denied</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2023/02/02/essay/%E8%A7%A3%E5%86%B3Docker%20permission%20denied/" class="archive-article-date">
-        <time datetime="2023-02-02T15:26:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-02-02</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h1 id="解决docker-permission-denied"><a href="#解决docker-permission-denied" class="headerlink" title="解决docker permission denied"></a>解决docker permission denied</h1><p>安装docker 后，运行缺报错提示permission denied</p>
-<p>解决方式</p>
-    
-    <a class="article-more-a" href="/2023/02/02/essay/%E8%A7%A3%E5%86%B3Docker%20permission%20denied/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">docker</a>
+        			<a href="/categories/算法//" class="article-tag-list-link color3">算法</a>
         		</li>
       		
 		</ul>
 	</div>
 
-    
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/2023/02/02/essay/%E8%A7%A3%E5%86%B3Docker%20permission%20denied/">展开全文 >></a>
+      <a class="article-more-a" href="/2023/07/16/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-94.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86/">展开全文 >></a>
     </p>
     
 
@@ -495,7 +821,7 @@
 
 
   
-    <article id="post-essay/Java read file" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="algorithm-algorithm/算法日记-LeetCode-18.四数之和" class="article article-type-algorithm  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -503,7 +829,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/2022/09/11/essay/Java%20read%20file/" target="_blank">java_read_file</a>
+	  <a class="article-title" href="/2023/07/15/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-18.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/" target="_blank">算法日记-LeetCode-18.四数之和</a>
   
     </h1>
   
@@ -511,8 +837,8 @@
 
   
   
-<a href="/2022/09/11/essay/Java%20read%20file/" class="archive-article-date">
-        <time datetime="2022-09-11T14:15:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-09-11</time>
+<a href="/2023/07/15/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-18.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/" class="archive-article-date">
+        <time datetime="2023-07-15T15:30:45.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-07-15</time>
 </a>
 
   
@@ -524,553 +850,9 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h1 id="java-read-file"><a href="#java-read-file" class="headerlink" title="java_read_file"></a>java_read_file</h1><h2 id="JAVA常用的输入方式"><a href="#JAVA常用的输入方式" class="headerlink" title="JAVA常用的输入方式"></a>JAVA常用的输入方式</h2><p>通过控制台进行输入，读取键盘输入进行处理</p>
-<h4 id="Scanner"><a href="#Scanner" class="headerlink" title="Scanner"></a>Scanner</h4>
+    <h1 id="算法日记-LeetCode-18-四数之和"><a href="#算法日记-LeetCode-18-四数之和" class="headerlink" title="算法日记-LeetCode-18.四数之和"></a>算法日记-LeetCode-18.四数之和</h1><p>原题链接：<a href="https://leetcode.cn/problems/4sum/" target="_blank" rel="noopener">18. 四数之和 - 力扣（LeetCode）</a></p>
     
-    <a class="article-more-a" href="/2022/09/11/essay/Java%20read%20file/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">JAVA</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2022/09/11/essay/Java%20read%20file/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-essay/Docker运行RabbitMQ" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2022/08/30/essay/Docker%E8%BF%90%E8%A1%8CRabbitMQ/" target="_blank">Docker运行RabbitMQ</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2022/08/30/essay/Docker%E8%BF%90%E8%A1%8CRabbitMQ/" class="archive-article-date">
-        <time datetime="2022-08-30T03:02:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-08-30</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h1 id="Docker运行RabbitMQ"><a href="#Docker运行RabbitMQ" class="headerlink" title="Docker运行RabbitMQ"></a>Docker运行RabbitMQ</h1><h2 id="拉取镜像"><a href="#拉取镜像" class="headerlink" title="拉取镜像"></a>拉取镜像</h2><p>可以先使用docker search 命令查找相关镜像</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">docker search rabbitmq</span><br></pre></td></tr></table></figure>
-    
-    <a class="article-more-a" href="/2022/08/30/essay/Docker%E8%BF%90%E8%A1%8CRabbitMQ/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Docker</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">RabbitMQ</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2022/08/30/essay/Docker%E8%BF%90%E8%A1%8CRabbitMQ/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-essay/crossOrigin" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2022/04/20/essay/crossOrigin/" target="_blank">解决跨域问题</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2022/04/20/essay/crossOrigin/" class="archive-article-date">
-        <time datetime="2022-04-20T14:49:18.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-04-20</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h1 id="解决跨域问题"><a href="#解决跨域问题" class="headerlink" title="解决跨域问题"></a>解决跨域问题</h1><ul>
-<li>golang解决跨域问题</li>
-<li>Java 解决跨域问题</li>
-</ul>
-    
-    <a class="article-more-a" href="/2022/04/20/essay/crossOrigin/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2022/04/20/essay/crossOrigin/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-essay/Java_List" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2022/04/18/essay/Java_List/" target="_blank">JAVA 集合类</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2022/04/18/essay/Java_List/" class="archive-article-date">
-        <time datetime="2022-04-18T09:27:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-04-18</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h1 id="JAVA-集合类"><a href="#JAVA-集合类" class="headerlink" title="JAVA 集合类"></a>JAVA 集合类</h1><ul>
-<li>常用集合类的遍历</li>
-<li>一些集合类</li>
-</ul>
-<h2 id="集合类的遍历"><a href="#集合类的遍历" class="headerlink" title="集合类的遍历"></a>集合类的遍历</h2><ul>
-<li>for循环（for-each）</li>
-<li>Iteratot</li>
-<li>forEach方法</li>
-</ul>
-    
-    <a class="article-more-a" href="/2022/04/18/essay/Java_List/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">JAVA</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2022/04/18/essay/Java_List/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-essay/mysql_sql" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2022/04/11/essay/mysql_sql/" target="_blank">mysql sql 语句</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2022/04/11/essay/mysql_sql/" class="archive-article-date">
-        <time datetime="2022-04-11T14:04:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-04-11</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h2 id="mysql-语句"><a href="#mysql-语句" class="headerlink" title="mysql 语句"></a>mysql 语句</h2><p><strong>查询语句执行顺序</strong>:</p>
-<ul>
-<li>SELECT -&gt; FROM -&gt; WHERE -&gt; GROUP BY -&gt; HAVING -&gt; ORDER BY</li>
-</ul>
-<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">WHERE 在分组前进行过滤， HAVING在分组后进行过滤</span><br></pre></td></tr></table></figure>
-    
-    <a class="article-more-a" href="/2022/04/11/essay/mysql_sql/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">mysql</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2022/04/11/essay/mysql_sql/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-essay/yaml_config" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2022/04/10/essay/yaml_config/" target="_blank">yaml 配置文件</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2022/04/10/essay/yaml_config/" class="archive-article-date">
-        <time datetime="2022-04-10T08:27:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-04-10</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h2 id="Springboot-yaml-文件配置"><a href="#Springboot-yaml-文件配置" class="headerlink" title="Springboot yaml 文件配置"></a>Springboot yaml 文件配置</h2><ul>
-<li>springboot服务已经连接MySQL</li>
-<li>jasypt加密</li>
-</ul>
-    
-    <a class="article-more-a" href="/2022/04/10/essay/yaml_config/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">yaml</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2022/04/10/essay/yaml_config/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-essay/java_synchronized_and_volatile" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2022/03/28/essay/java_synchronized_and_volatile/" target="_blank">Java synchronized and volatile</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2022/03/28/essay/java_synchronized_and_volatile/" class="archive-article-date">
-        <time datetime="2022-03-28T13:25:05.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-03-28</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h2 id="Java-synchronized-and-volatile"><a href="#Java-synchronized-and-volatile" class="headerlink" title="Java synchronized and volatile"></a>Java synchronized and volatile</h2><ul>
-<li>synchronized in java</li>
-<li>volatile in java</li>
-</ul>
-    
-    <a class="article-more-a" href="/2022/03/28/essay/java_synchronized_and_volatile/#more">more >></a>
+    <a class="article-more-a" href="/2023/07/15/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-18.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/#more">more >></a>
     
     
 
@@ -1091,17 +873,328 @@
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">多线程</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">leetcode</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">双指针</a>
         		</li>
       		
 		</ul>
 	</div>
 
     
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/算法//" class="article-tag-list-link color3">算法</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/2022/03/28/essay/java_synchronized_and_volatile/">展开全文 >></a>
+      <a class="article-more-a" href="/2023/07/15/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-18.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="algorithm-algorithm/算法日记-LeetCode-931.下降路径最小和" class="article article-type-algorithm  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/" target="_blank">算法日记-LeetCode-931-下降路径最小和</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/" class="archive-article-date">
+        <time datetime="2023-07-13T15:53:07.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-07-13</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="算法日记-LeetCode-931-下降路径最小和"><a href="#算法日记-LeetCode-931-下降路径最小和" class="headerlink" title="算法日记-LeetCode-931.下降路径最小和"></a>算法日记-LeetCode-931.下降路径最小和</h1><p>原题链接：<a href="https://leetcode.cn/problems/minimum-falling-path-sum/" target="_blank" rel="noopener">931. 下降路径最小和 - 力扣（LeetCode）</a></p>
+    
+    <a class="article-more-a" href="/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/#more">more >></a>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">JAVA</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">leetcode</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">动态规划</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/算法//" class="article-tag-list-link color3">算法</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-essay/在服务运行kafka" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2023/07/12/essay/%E5%9C%A8%E6%9C%8D%E5%8A%A1%E8%BF%90%E8%A1%8Ckafka/" target="_blank">在服务器运行kafka</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2023/07/12/essay/%E5%9C%A8%E6%9C%8D%E5%8A%A1%E8%BF%90%E8%A1%8Ckafka/" class="archive-article-date">
+        <time datetime="2023-07-12T15:17:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-07-12</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2023/07/12/essay/%E5%9C%A8%E6%9C%8D%E5%8A%A1%E8%BF%90%E8%A1%8Ckafka/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="algorithm-algorithm/算法日记-LeetCode-2544.交替数字和" class="article article-type-algorithm  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2023/07/12/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-2544.%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C/" target="_blank">算法日记-LeetCode-2544-交替数字和</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2023/07/12/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-2544.%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C/" class="archive-article-date">
+        <time datetime="2023-07-12T14:13:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-07-12</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="LeetCode-2544-交替数字和"><a href="#LeetCode-2544-交替数字和" class="headerlink" title="LeetCode-2544.交替数字和"></a>LeetCode-2544.交替数字和</h1><p>原题链接：<a href="https://leetcode.cn/problems/alternating-digit-sum/" target="_blank" rel="noopener">2544. 交替数字和 - 力扣（LeetCode）</a></p>
+    
+    <a class="article-more-a" href="/2023/07/12/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-2544.%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C/#more">more >></a>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">JAVA</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">leetcode</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/算法//" class="article-tag-list-link color3">算法</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2023/07/12/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-2544.%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C/">展开全文 >></a>
     </p>
     
 
@@ -1133,7 +1226,7 @@
   
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/">Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/">Next</a>
+      <a class="extend prev" rel="prev" href="/">Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/3/">Next</a>
     </nav>
   
 
@@ -1239,15 +1332,23 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">leetcode</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">JAVA</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">算法</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">单调栈</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">leetcode</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">二叉树</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1259,7 +1360,23 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">单调栈</a>
+                <a href="javascript:void(0)" class="js-tag color3">递归</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">子序列</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">动态规划</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">双指针</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">字符串</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1291,15 +1408,15 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">git</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">虚拟机</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">ubuntu</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">git</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1319,19 +1436,19 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">yaml</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">docker</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">mysql</a>
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">yaml</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">dfs</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">docker</a>
               </li>
             
             <div class="clearfix"></div>
