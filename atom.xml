@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://naskete.github.io/"/>
-  <updated>2023-08-10T15:47:14.233Z</updated>
+  <updated>2023-08-14T15:36:24.714Z</updated>
   <id>https://naskete.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>算法日记-LeetCode-617.合并二叉树</title>
+    <link href="https://naskete.github.io/2023/08/14/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-617.%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    <id>https://naskete.github.io/2023/08/14/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-617.%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91/</id>
+    <published>2023-08-14T15:24:56.000Z</published>
+    <updated>2023-08-14T15:36:24.714Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-617-合并二叉树"><a href="#算法日记-LeetCode-617-合并二叉树" class="headerlink" title="算法日记-LeetCode-617.合并二叉树"></a>算法日记-LeetCode-617.合并二叉树</h1><p>原题链接：<a href="https://leetcode.cn/problems/merge-two-binary-trees/" target="_blank" rel="noopener">力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台</a></p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给出两个二叉树，将两个二叉树重叠在一起</p><ul><li><p>如果都有值，新节点值为两值和</p></li><li><p>如果只有一个有值，新节点与其相等</p></li><li><p>都为空，新节点为空</p></li></ul><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> TreeNode <span class="title">mergeTrees</span><span class="params">(TreeNode root1, TreeNode root2)</span> </span>&#123;</span><br><span class="line">        TreeNode root = <span class="keyword">new</span> TreeNode();</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span> &amp;&amp; root2 == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">if</span> (root1 != <span class="keyword">null</span> &amp;&amp; root2 != <span class="keyword">null</span>) &#123;</span><br><span class="line">            root.val = root1.val + root2.val;</span><br><span class="line">            root.left = mergeTrees(root1.left, root2.left);</span><br><span class="line">            root.right = mergeTrees(root1.right, root2.right);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root2;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root2 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> root;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;算法日记-LeetCode-617-合并二叉树&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-617-合并二叉树&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-617.合并二叉树&quot;&gt;&lt;/a&gt;算法日记-LeetCode-617.合并二叉树&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/merge-two-binary-trees/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
+      <category term="二叉树" scheme="https://Naskete.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    
+  </entry>
   
   <entry>
     <title>算法日记-LeetCode-1289.下降路径最小和II</title>
@@ -502,35 +531,6 @@
     
     
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法日记-LeetCode-94.二叉树的中序遍历</title>
-    <link href="https://naskete.github.io/2023/07/16/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-94.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86/"/>
-    <id>https://naskete.github.io/2023/07/16/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-94.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86/</id>
-    <published>2023-07-16T14:26:20.000Z</published>
-    <updated>2023-08-07T15:34:29.059Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-94-二叉树的中序遍历"><a href="#算法日记-LeetCode-94-二叉树的中序遍历" class="headerlink" title="算法日记-LeetCode-94.二叉树的中序遍历"></a>算法日记-LeetCode-94.二叉树的中序遍历</h1><p>原题链接：<a href="https://leetcode.cn/problems/binary-tree-inorder-traversal/description/" target="_blank" rel="noopener">94. 二叉树的中序遍历 - 力扣（LeetCode）</a></p><a id="more"></a><h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给定一个二叉树的根节点 <code>root</code> ，返回 <em>它的 <strong>中序</strong> 遍历</em></p><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><ol><li><p>迭代</p></li><li><p>递归</p></li></ol><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><ol><li>迭代</li></ol><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;Integer&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode root)</span> </span>&#123;</span><br><span class="line">        List&lt;Integer&gt; list = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        <span class="keyword">if</span>(root == <span class="keyword">null</span>) <span class="keyword">return</span> list;</span><br><span class="line">        Stack&lt;TreeNode&gt; stack = <span class="keyword">new</span> Stack&lt;&gt;();</span><br><span class="line">        TreeNode node = root;</span><br><span class="line">        <span class="keyword">while</span>(!stack.empty() || node != <span class="keyword">null</span>)&#123;</span><br><span class="line">            <span class="keyword">while</span>(node != <span class="keyword">null</span>)&#123;</span><br><span class="line">                stack.push(node);</span><br><span class="line">                node = node.left;</span><br><span class="line">            &#125;</span><br><span class="line">            node = stack.pop();</span><br><span class="line">            list.add(node.val);</span><br><span class="line">            node = node.right;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> list;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol start="2"><li>递归</li></ol><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;Integer&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode root)</span> </span>&#123;</span><br><span class="line">        List&lt;Integer&gt; list = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        traversal(root, list);</span><br><span class="line">        <span class="keyword">return</span> list;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">traversal</span><span class="params">(TreeNode root, List&lt;Integer&gt; list)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(root==<span class="keyword">null</span>) <span class="keyword">return</span>;</span><br><span class="line">        traversal(root.left, list);</span><br><span class="line">        list.add(root.val);</span><br><span class="line">        traversal(root.right, list);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;算法日记-LeetCode-94-二叉树的中序遍历&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-94-二叉树的中序遍历&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-94.二叉树的中序遍历&quot;&gt;&lt;/a&gt;算法日记-LeetCode-94.二叉树的中序遍历&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/binary-tree-inorder-traversal/description/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;94. 二叉树的中序遍历 - 力扣（LeetCode）&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
-      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
-    
-      <category term="二叉树" scheme="https://Naskete.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
     
   </entry>
   
