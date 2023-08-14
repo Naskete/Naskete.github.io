@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://naskete.github.io/"/>
-  <updated>2023-08-14T15:36:24.714Z</updated>
+  <updated>2023-08-14T15:53:10.054Z</updated>
   <id>https://naskete.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://naskete.github.io/2023/08/14/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-617.%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
     <id>https://naskete.github.io/2023/08/14/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-617.%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91/</id>
     <published>2023-08-14T15:24:56.000Z</published>
-    <updated>2023-08-14T15:36:24.714Z</updated>
+    <updated>2023-08-14T15:53:10.054Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-617-合并二叉树"><a href="#算法日记-LeetCode-617-合并二叉树" class="headerlink" title="算法日记-LeetCode-617.合并二叉树"></a>算法日记-LeetCode-617.合并二叉树</h1><p>原题链接：<a href="https://leetcode.cn/problems/merge-two-binary-trees/" target="_blank" rel="noopener">力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台</a></p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给出两个二叉树，将两个二叉树重叠在一起</p><ul><li><p>如果都有值，新节点值为两值和</p></li><li><p>如果只有一个有值，新节点与其相等</p></li><li><p>都为空，新节点为空</p></li></ul><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> TreeNode <span class="title">mergeTrees</span><span class="params">(TreeNode root1, TreeNode root2)</span> </span>&#123;</span><br><span class="line">        TreeNode root = <span class="keyword">new</span> TreeNode();</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span> &amp;&amp; root2 == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">if</span> (root1 != <span class="keyword">null</span> &amp;&amp; root2 != <span class="keyword">null</span>) &#123;</span><br><span class="line">            root.val = root1.val + root2.val;</span><br><span class="line">            root.left = mergeTrees(root1.left, root2.left);</span><br><span class="line">            root.right = mergeTrees(root1.right, root2.right);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root2;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root2 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> root;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-617-合并二叉树"><a href="#算法日记-LeetCode-617-合并二叉树" class="headerlink" title="算法日记-LeetCode-617.合并二叉树"></a>算法日记-LeetCode-617.合并二叉树</h1><p>原题链接：<a href="https://leetcode.cn/problems/merge-two-binary-trees/" target="_blank" rel="noopener">力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台</a></p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给出两个二叉树，将两个二叉树重叠在一起</p><ul><li><p>如果都有值，新节点值为两值和</p></li><li><p>如果只有一个有值，新节点与其相等</p></li><li><p>都为空，新节点为空</p></li></ul><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> TreeNode <span class="title">mergeTrees</span><span class="params">(TreeNode root1, TreeNode root2)</span> </span>&#123;</span><br><span class="line">        TreeNode root = <span class="keyword">new</span> TreeNode();</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span> &amp;&amp; root2 == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">if</span> (root1 != <span class="keyword">null</span> &amp;&amp; root2 != <span class="keyword">null</span>) &#123;</span><br><span class="line">            root.val = root1.val + root2.val;</span><br><span class="line">            root.left = mergeTrees(root1.left, root2.left);</span><br><span class="line">            root.right = mergeTrees(root1.right, root2.right);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root2;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root2 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> root;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>简化</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> TreeNode <span class="title">mergeTrees</span><span class="params">(TreeNode root1, TreeNode root2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root2;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root2 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root1;</span><br><span class="line">        &#125;</span><br><span class="line">        TreeNode root = <span class="keyword">new</span> TreeNode(root1.val + root2.val);</span><br><span class="line">        root.left = mergeTrees(root1.left, root2.left);</span><br><span class="line">        root.right = mergeTrees(root1.right, root2.right);</span><br><span class="line">        <span class="keyword">return</span> root;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -35,9 +35,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
@@ -50,16 +50,15 @@
     <link href="https://naskete.github.io/2023/08/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-1289.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8CII/"/>
     <id>https://naskete.github.io/2023/08/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-1289.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8CII/</id>
     <published>2023-08-10T15:47:14.000Z</published>
-    <updated>2023-08-10T15:47:14.233Z</updated>
+    <updated>2023-08-14T15:47:21.979Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-1289-下降路径最小和II"><a href="#算法日记-LeetCode-1289-下降路径最小和II" class="headerlink" title="算法日记-LeetCode-1289.下降路径最小和II"></a>算法日记-LeetCode-1289.下降路径最小和II</h1><p>原题链接：<a href="https://leetcode.cn/problems/minimum-falling-path-sum-ii/" target="_blank" rel="noopener">1289. 下降路径最小和 II - 力扣（LeetCode）</a></p><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给定一个 <code>n x n</code> 整数矩阵 <code>grid</code> ，返回 <strong>非零偏移下降路径</strong> 数字和的最小值。</p><p><strong>非零偏移下降路径</strong> ：从 <code>grid</code> 数组中的每一行选择一个数字，且按顺序选出来的数字中，相邻数字不在原数组的同一列。</p><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
+        &lt;h1 id=&quot;算法日记-LeetCode-1289-下降路径最小和II&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-1289-下降路径最小和II&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-1289.下降路径最小和II&quot;&gt;&lt;/a&gt;算法
       
     
     </summary>
@@ -68,9 +67,11 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
       <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
-      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
   </entry>
   
@@ -96,9 +97,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
@@ -152,9 +153,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
@@ -179,9 +180,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
@@ -227,9 +228,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
   </entry>
   
@@ -256,9 +257,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
   </entry>
   
@@ -299,9 +300,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
   </entry>
   
@@ -344,9 +345,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
@@ -393,9 +394,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
@@ -423,9 +424,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
@@ -455,9 +456,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
@@ -503,9 +504,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
