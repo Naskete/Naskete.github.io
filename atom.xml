@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://naskete.github.io/"/>
-  <updated>2023-08-15T15:40:25.365Z</updated>
+  <updated>2023-08-16T16:18:17.950Z</updated>
   <id>https://naskete.github.io/</id>
   
   <author>
@@ -17,13 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>算法日记-LeetCode-239.滑动窗口最大值</title>
+    <link href="https://naskete.github.io/2023/08/17/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-239.%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC/"/>
+    <id>https://naskete.github.io/2023/08/17/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-239.%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC/</id>
+    <published>2023-08-16T16:18:17.000Z</published>
+    <updated>2023-08-16T16:18:17.950Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>算法日记-LeetCode-86.分隔链表</title>
     <link href="https://naskete.github.io/2023/08/15/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-86.%E5%88%86%E9%9A%94%E9%93%BE%E8%A1%A8/"/>
     <id>https://naskete.github.io/2023/08/15/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-86.%E5%88%86%E9%9A%94%E9%93%BE%E8%A1%A8/</id>
     <published>2023-08-15T15:37:52.000Z</published>
-    <updated>2023-08-15T15:40:25.365Z</updated>
+    <updated>2023-08-17T15:37:08.600Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-86-分隔链表"><a href="#算法日记-LeetCode-86-分隔链表" class="headerlink" title="算法日记-LeetCode-86.分隔链表"></a>算法日记-LeetCode-86.分隔链表</h1><p>原题链接：<a href="https://leetcode.com/problems/partition-list/" target="_blank" rel="noopener">Partition List - LeetCode</a></p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> ListNode <span class="title">partition</span><span class="params">(ListNode head, <span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (head == <span class="keyword">null</span>) <span class="keyword">return</span> head;</span><br><span class="line">        ListNode less = <span class="keyword">new</span> ListNode();</span><br><span class="line">        ListNode more = <span class="keyword">new</span> ListNode();</span><br><span class="line">        ListNode p = less, q = more;</span><br><span class="line">        <span class="keyword">while</span> (head != <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">if</span> (head.val &gt;= x) &#123;</span><br><span class="line">                q.next = head;</span><br><span class="line">                q = q.next;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                p.next = head;</span><br><span class="line">                p = p.next;</span><br><span class="line">            &#125;</span><br><span class="line">            head = head.next;</span><br><span class="line">        &#125;</span><br><span class="line">        p.next = more.next;</span><br><span class="line">        q.next = <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">return</span> less.next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-86-分隔链表"><a href="#算法日记-LeetCode-86-分隔链表" class="headerlink" title="算法日记-LeetCode-86.分隔链表"></a>算法日记-LeetCode-86.分隔链表</h1><p>原题链接：<a href="https://leetcode.com/problems/partition-list/" target="_blank" rel="noopener">Partition List - LeetCode</a></p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给一个链表list以及一个值x，将所有小于x的节点移到链表前面，不改变其原有的顺序</p><p>如：</p><p>x = 3</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A((1)) --&gt; B((4)) --&gt; C((3)) --&gt; D((2)) --&gt; E((2)) --&gt; F((3)) --&gt; G((5))</span><br><span class="line">H((1)) --&gt; I((2)) --&gt; J((2)) --&gt; K((4)) --&gt; L((3)) --&gt; M((3)) --&gt; N((5))</span><br></pre></td></tr></table></figure><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><p>这个有点类似排序中的快排，给定一个标准值，大于标准值的往前，小于标准值的往后。在链表中没有索引，不能像数组中方便的交换两个值。</p><p>题目要求不能改变相对顺序，我们可以按照题目说的分隔，将大于等于x和小于x的分别存放到两个链表less和more中，最后将less的最后一个节点的next指向more的第一个节点即可。</p><p>注意：头节点是空节点，应该返回它的next，即less.next;</p><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> ListNode <span class="title">partition</span><span class="params">(ListNode head, <span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (head == <span class="keyword">null</span>) <span class="keyword">return</span> head;</span><br><span class="line">        ListNode less = <span class="keyword">new</span> ListNode();</span><br><span class="line">        ListNode more = <span class="keyword">new</span> ListNode();</span><br><span class="line">        ListNode p = less, q = more;</span><br><span class="line">        <span class="keyword">while</span> (head != <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">if</span> (head.val &gt;= x) &#123;</span><br><span class="line">                q.next = head;</span><br><span class="line">                q = q.next;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                p.next = head;</span><br><span class="line">                p = p.next;</span><br><span class="line">            &#125;</span><br><span class="line">            head = head.next;</span><br><span class="line">        &#125;</span><br><span class="line">        p.next = more.next;</span><br><span class="line">        q.next = <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">return</span> less.next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -48,9 +77,9 @@
     <link href="https://naskete.github.io/2023/08/14/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-617.%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
     <id>https://naskete.github.io/2023/08/14/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-617.%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91/</id>
     <published>2023-08-14T15:24:56.000Z</published>
-    <updated>2023-08-14T15:59:40.936Z</updated>
+    <updated>2023-08-17T15:43:10.489Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-617-合并二叉树"><a href="#算法日记-LeetCode-617-合并二叉树" class="headerlink" title="算法日记-LeetCode-617.合并二叉树"></a>算法日记-LeetCode-617.合并二叉树</h1><p>原题链接：<a href="https://leetcode.cn/problems/merge-two-binary-trees/" target="_blank" rel="noopener">力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台</a></p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给出两个二叉树，将两个二叉树重叠在一起</p><ul><li><p>如果都有值，新节点值为两值和</p></li><li><p>如果只有一个有值，新节点与其相等</p></li><li><p>都为空，新节点为空</p></li></ul><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> TreeNode <span class="title">mergeTrees</span><span class="params">(TreeNode root1, TreeNode root2)</span> </span>&#123;</span><br><span class="line">        TreeNode root = <span class="keyword">new</span> TreeNode();</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span> &amp;&amp; root2 == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">if</span> (root1 != <span class="keyword">null</span> &amp;&amp; root2 != <span class="keyword">null</span>) &#123;</span><br><span class="line">            root.val = root1.val + root2.val;</span><br><span class="line">            root.left = mergeTrees(root1.left, root2.left);</span><br><span class="line">            root.right = mergeTrees(root1.right, root2.right);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root2;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root2 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> root;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>简化</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> TreeNode <span class="title">mergeTrees</span><span class="params">(TreeNode root1, TreeNode root2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root2;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root2 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root1;</span><br><span class="line">        &#125;</span><br><span class="line">        TreeNode root = <span class="keyword">new</span> TreeNode(root1.val + root2.val);</span><br><span class="line">        root.left = mergeTrees(root1.left, root2.left);</span><br><span class="line">        root.right = mergeTrees(root1.right, root2.right);</span><br><span class="line">        <span class="keyword">return</span> root;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-617-合并二叉树"><a href="#算法日记-LeetCode-617-合并二叉树" class="headerlink" title="算法日记-LeetCode-617.合并二叉树"></a>算法日记-LeetCode-617.合并二叉树</h1><p>原题链接：<a href="https://leetcode.cn/problems/merge-two-binary-trees/" target="_blank" rel="noopener">力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台</a></p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给出两个二叉树，将两个二叉树重叠在一起</p><ul><li><p>如果都有值，新节点值为两值和</p></li><li><p>如果只有一个有值，新节点与其相等</p></li><li><p>都为空，新节点为空</p></li></ul><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><p>根据题目的意思，我们需要将两个二叉树的重合的节点值相加，如果不是两个都有，那么就哪棵树有节点就用哪个，都没有则节点为空</p><p>两棵树 tree1, tree2</p><ul><li><p>如果都有值 tree1.val + tree2.val</p></li><li><p>如果只有其中一个有 tree1.val 或者 tree2.val</p></li><li><p>都没有，节点为空</p></li></ul><p>二叉树都可以通过递归方法来操作，操作对象分为：根节点、左子树、右子树</p><p>按照这个思路，给出一个merge函数，先merge根节点，再merge左右子树</p><ul><li><p>merge根节点 ：判断tree1，tree2是否为空</p></li><li><p>merge左子树：merge tree1.left和tree2.left，走同样的merge逻辑</p></li><li><p>merge右子树：merge tree1.right 和 tree2.right</p></li></ul><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> TreeNode <span class="title">mergeTrees</span><span class="params">(TreeNode root1, TreeNode root2)</span> </span>&#123;</span><br><span class="line">        TreeNode root = <span class="keyword">new</span> TreeNode();</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span> &amp;&amp; root2 == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">if</span> (root1 != <span class="keyword">null</span> &amp;&amp; root2 != <span class="keyword">null</span>) &#123;</span><br><span class="line">            root.val = root1.val + root2.val;</span><br><span class="line">            root.left = mergeTrees(root1.left, root2.left);</span><br><span class="line">            root.right = mergeTrees(root1.right, root2.right);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root2;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root2 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> root;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>简化</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> TreeNode <span class="title">mergeTrees</span><span class="params">(TreeNode root1, TreeNode root2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (root1 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root2;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root2 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            root = root1;</span><br><span class="line">        &#125;</span><br><span class="line">        TreeNode root = <span class="keyword">new</span> TreeNode(root1.val + root2.val);</span><br><span class="line">        root.left = mergeTrees(root1.left, root2.left);</span><br><span class="line">        root.right = mergeTrees(root1.right, root2.right);</span><br><span class="line">        <span class="keyword">return</span> root;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -506,33 +535,6 @@
     
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>算法日记-874-模拟行走机器人</title>
-    <link href="https://naskete.github.io/2023/07/19/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-874.%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>https://naskete.github.io/2023/07/19/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-874.%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA/</id>
-    <published>2023-07-19T12:39:40.000Z</published>
-    <updated>2023-08-06T15:28:49.348Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-874-模拟行走机器人"><a href="#算法日记-LeetCode-874-模拟行走机器人" class="headerlink" title="算法日记-LeetCode-874.模拟行走机器人"></a>算法日记-LeetCode-874.模拟行走机器人</h1><p>原题链接：<a href="https://leetcode.cn/problems/walking-robot-simulation/" target="_blank" rel="noopener">874. 模拟行走机器人 - 力扣（LeetCode）</a></p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;算法日记-LeetCode-874-模拟行走机器人&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-874-模拟行走机器人&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-874.模拟行走机器人&quot;&gt;&lt;/a&gt;算法日记-LeetCode-874.模拟行走机器人&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/walking-robot-simulation/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;874. 模拟行走机器人 - 力扣（LeetCode）&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
-    
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
-      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
