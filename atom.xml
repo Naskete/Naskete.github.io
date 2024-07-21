@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://naskete.github.io/"/>
-  <updated>2023-08-16T16:18:17.950Z</updated>
+  <updated>2023-08-17T15:37:08.600Z</updated>
   <id>https://naskete.github.io/</id>
   
   <author>
@@ -15,35 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>算法日记-LeetCode-239.滑动窗口最大值</title>
-    <link href="https://naskete.github.io/2023/08/17/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-239.%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC/"/>
-    <id>https://naskete.github.io/2023/08/17/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-239.%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC/</id>
-    <published>2023-08-16T16:18:17.000Z</published>
-    <updated>2023-08-16T16:18:17.950Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
-  </entry>
   
   <entry>
     <title>算法日记-LeetCode-86.分隔链表</title>
@@ -64,11 +35,11 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
       <category term="链表" scheme="https://Naskete.github.io/tags/%E9%93%BE%E8%A1%A8/"/>
-    
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
   </entry>
   
@@ -91,43 +62,13 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
-    
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="二叉树" scheme="https://Naskete.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法日记-LeetCode-1289.下降路径最小和II</title>
-    <link href="https://naskete.github.io/2023/08/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-1289.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8CII/"/>
-    <id>https://naskete.github.io/2023/08/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-1289.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8CII/</id>
-    <published>2023-08-10T15:47:14.000Z</published>
-    <updated>2023-08-14T15:47:21.979Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-1289-下降路径最小和II"><a href="#算法日记-LeetCode-1289-下降路径最小和II" class="headerlink" title="算法日记-LeetCode-1289.下降路径最小和II"></a>算法日记-LeetCode-1289.下降路径最小和II</h1><p>原题链接：<a href="https://leetcode.cn/problems/minimum-falling-path-sum-ii/" target="_blank" rel="noopener">1289. 下降路径最小和 II - 力扣（LeetCode）</a></p><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给定一个 <code>n x n</code> 整数矩阵 <code>grid</code> ，返回 <strong>非零偏移下降路径</strong> 数字和的最小值。</p><p><strong>非零偏移下降路径</strong> ：从 <code>grid</code> 数组中的每一行选择一个数字，且按顺序选出来的数字中，相邻数字不在原数组的同一列。</p><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;算法日记-LeetCode-1289-下降路径最小和II&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-1289-下降路径最小和II&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-1289.下降路径最小和II&quot;&gt;&lt;/a&gt;算法
-      
-    
-    </summary>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
-    
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
   </entry>
   
@@ -136,9 +77,9 @@
     <link href="https://naskete.github.io/2023/08/09/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-53.%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C/"/>
     <id>https://naskete.github.io/2023/08/09/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-53.%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C/</id>
     <published>2023-08-09T15:14:29.000Z</published>
-    <updated>2023-08-14T16:08:21.135Z</updated>
+    <updated>2023-08-17T15:59:25.614Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-53-最大子数组和"><a href="#算法日记-LeetCode-53-最大子数组和" class="headerlink" title="算法日记-LeetCode-53.最大子数组和"></a>算法日记-LeetCode-53.最大子数组和</h1><p>原题链接：<a href="https://leetcode.cn/problems/maximum-subarray/description/" target="_blank" rel="noopener">53. 最大子数组和 - 力扣（LeetCode）</a></p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给你一个整数数组 <code>nums</code> ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。</p><p><strong>子数组</strong> 是数组中的一个连续部分</p><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><p>从左往右遍历，</p><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">maxSubArray</span><span class="params">(<span class="keyword">int</span>[] nums)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> pre = <span class="number">0</span>, max = nums[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> num : nums) &#123;</span><br><span class="line">            pre = Math.max(pre + num, num);</span><br><span class="line">            max = Math.max(pre, max);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> max;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-53-最大子数组和"><a href="#算法日记-LeetCode-53-最大子数组和" class="headerlink" title="算法日记-LeetCode-53.最大子数组和"></a>算法日记-LeetCode-53.最大子数组和</h1><p>原题链接：<a href="https://leetcode.cn/problems/maximum-subarray/description/" target="_blank" rel="noopener">53. 最大子数组和 - 力扣（LeetCode）</a></p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给你一个整数数组 <code>nums</code> ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。</p><p><strong>子数组</strong> 是数组中的一个连续部分</p><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><h4 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h4><p>明确定义：</p><p>我们可以通过dp数组记录，dp[i]表示<em>以下标i结尾的「连续子数组的最大和」</em>，记为f(i)，那么要求到i + 1结尾的<em>连续子数组的最大和</em>，只要比较nums[i + 1]，f(i) + nums[i+ 1]，取他们中的最大值即可。 </p><p>状态转移方程：dp[i + 1] = Math.max(dp[i] + num[i + 1], num[i + 1])  </p><p>最后，取整个dp数组的最大值，即为所求的结果</p><hr><p>简化写法</p><p>由于f(i)的值只与f(i - 1)有关，所以可以用一个值来记录，表示f(i)和f(i - 1)的关系</p><p>f(i) = f(i - 1) + num[i]，可以通过变量的形式，将这一个关系维持到遍历结束 </p><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">maxSubArray</span><span class="params">(<span class="keyword">int</span>[] nums)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> pre = <span class="number">0</span>, max = nums[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> num : nums) &#123;</span><br><span class="line">            pre = Math.max(pre + num, num);</span><br><span class="line">            max = Math.max(pre, max);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> max;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -150,67 +91,11 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
-    
       <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法日记-LeetCode1281.整数的各位积和之差</title>
-    <link href="https://naskete.github.io/2023/08/09/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-1281.%E6%95%B4%E6%95%B0%E7%9A%84%E5%90%84%E4%BD%8D%E7%A7%AF%E5%92%8C%E4%B9%8B%E5%B7%AE/"/>
-    <id>https://naskete.github.io/2023/08/09/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-1281.%E6%95%B4%E6%95%B0%E7%9A%84%E5%90%84%E4%BD%8D%E7%A7%AF%E5%92%8C%E4%B9%8B%E5%B7%AE/</id>
-    <published>2023-08-08T16:32:37.000Z</published>
-    <updated>2023-08-09T15:18:10.349Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>算法日记-LeetCode-1749.任意子数组和的绝对值的最大值</title>
-    <link href="https://naskete.github.io/2023/08/09/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-1749.%E4%BB%BB%E6%84%8F%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E7%9A%84%E7%BB%9D%E5%AF%B9%E5%80%BC%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/"/>
-    <id>https://naskete.github.io/2023/08/09/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-1749.%E4%BB%BB%E6%84%8F%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E7%9A%84%E7%BB%9D%E5%AF%B9%E5%80%BC%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</id>
-    <published>2023-08-08T16:31:28.000Z</published>
-    <updated>2023-08-09T15:18:00.371Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
     
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
-    
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
   </entry>
   
@@ -233,11 +118,11 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
-    
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="字符串" scheme="https://Naskete.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
     
@@ -263,17 +148,13 @@
     <link href="https://naskete.github.io/2023/08/06/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-24.%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9/"/>
     <id>https://naskete.github.io/2023/08/06/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-24.%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9/</id>
     <published>2023-08-06T14:16:45.000Z</published>
-    <updated>2023-08-09T15:18:22.728Z</updated>
+    <updated>2023-08-17T16:14:25.933Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-24-两两交换链表中的节点"><a href="#算法日记-LeetCode-24-两两交换链表中的节点" class="headerlink" title="算法日记-LeetCode-24.两两交换链表中的节点"></a>算法日记-LeetCode-24.两两交换链表中的节点</h1><p>原题链接：<a href="https://leetcode.cn/problems/swap-nodes-in-pairs/" target="_blank" rel="noopener">24. 两两交换链表中的节点 - 力扣（LeetCode）</a></p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给定一个链表，对链表的每两个节点做一次反转</p><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-      
+      &lt;h1 id=&quot;算法日记-LeetCode-24-两两交换链表中的节点&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-24-两两交换链表中的节点&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-24.两两交换链表中的节点&quot;&gt;&lt;/a&gt;算法日记-LeetCode-24.两两交换链表中的节点&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/swap-nodes-in-pairs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;24. 两两交换链表中的节点 - 力扣（LeetCode）&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -281,38 +162,9 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
       <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
-  </entry>
-  
-  <entry>
-    <title>算法日记-LeetCode-2681.英雄的力量</title>
-    <link href="https://naskete.github.io/2023/08/01/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-2681.%E8%8B%B1%E9%9B%84%E7%9A%84%E5%8A%9B%E9%87%8F/"/>
-    <id>https://naskete.github.io/2023/08/01/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-2681.%E8%8B%B1%E9%9B%84%E7%9A%84%E5%8A%9B%E9%87%8F/</id>
-    <published>2023-08-01T15:57:13.000Z</published>
-    <updated>2023-08-09T15:18:30.961Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
   </entry>
   
@@ -332,34 +184,6 @@
   </entry>
   
   <entry>
-    <title>算法日记-LeetCode-143.重排链表</title>
-    <link href="https://naskete.github.io/2023/07/31/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-143.%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8/"/>
-    <id>https://naskete.github.io/2023/07/31/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-143.%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8/</id>
-    <published>2023-07-31T15:47:24.000Z</published>
-    <updated>2023-07-31T15:50:28.172Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-143-重排链表"><a href="#算法日记-LeetCode-143-重排链表" class="headerlink" title="算法日记-LeetCode-143.重排链表"></a>算法日记-LeetCode-143.重排链表</h1><p>原题链接：<a href="https://leetcode.cn/problems/reorder-list/" target="_blank" rel="noopener">143. 重排链表 - 力扣（LeetCode）</a></p><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;算法日记-LeetCode-143-重排链表&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-143-重排链表&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-143.重排链表&quot;&gt;&lt;/a&gt;算法日记-LeetCode-143.重排
-      
-    
-    </summary>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
-  </entry>
-  
-  <entry>
     <title>二叉树的遍历</title>
     <link href="https://naskete.github.io/2023/07/30/essay/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/"/>
     <id>https://naskete.github.io/2023/07/30/essay/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/</id>
@@ -371,38 +195,6 @@
     </summary>
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>算法日记-2500-删除每行中的最大值</title>
-    <link href="https://naskete.github.io/2023/07/27/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-2500.%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/"/>
-    <id>https://naskete.github.io/2023/07/27/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-2500.%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</id>
-    <published>2023-07-27T15:54:10.000Z</published>
-    <updated>2023-08-06T15:07:12.752Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a><h1 id="算法日记-LeetCode-2500-删除每行中的最大值"><a href="#算法日记-LeetCode-2500-删除每行中的最大值" class="headerlink" title="算法日记-LeetCode-2500.删除每行中的最大值"></a>算法日记-LeetCode-2500.删除每行中的最大值</h1>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-&lt;h1 id=&quot;算法日记-LeetCode-2500-删除每行中的最大值&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-2500-删除每行中的最大值&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-250
-      
-    
-    </summary>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
-    
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
   </entry>
   
@@ -447,29 +239,26 @@
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
-    
   </entry>
   
   <entry>
-    <title>算法日记-105-从前序遍历和中序遍历构造二叉树</title>
-    <link href="https://naskete.github.io/2023/07/23/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-105.%E4%BB%8E%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E5%92%8C%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
-    <id>https://naskete.github.io/2023/07/23/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-105.%E4%BB%8E%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E5%92%8C%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/</id>
-    <published>2023-07-23T15:49:19.000Z</published>
-    <updated>2023-08-07T15:42:04.849Z</updated>
+    <title>算法日记-415-字符串相加</title>
+    <link href="https://naskete.github.io/2023/07/17/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-415.%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0/"/>
+    <id>https://naskete.github.io/2023/07/17/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-415.%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0/</id>
+    <published>2023-07-17T13:31:00.000Z</published>
+    <updated>2023-08-07T15:39:43.625Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-105-从前序遍历和中序遍历构造二叉树"><a href="#算法日记-LeetCode-105-从前序遍历和中序遍历构造二叉树" class="headerlink" title="算法日记-LeetCode-105-从前序遍历和中序遍历构造二叉树"></a>算法日记-LeetCode-105-从前序遍历和中序遍历构造二叉树</h1><p>原题链接:</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-415-字符串相加"><a href="#算法日记-LeetCode-415-字符串相加" class="headerlink" title="算法日记-LeetCode-415.字符串相加"></a>算法日记-LeetCode-415.字符串相加</h1><p>原题链接：<a href="https://leetcode.cn/problems/add-strings/" target="_blank" rel="noopener">415. 字符串相加 - 力扣（LeetCode）</a></p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给定两个只包含数字的字符串，求出两个字符串的和，以字符串形式返回</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入：num1 = <span class="string">"11"</span>, num2 = <span class="string">"123"</span></span><br><span class="line">输出：<span class="string">"134"</span></span><br></pre></td></tr></table></figure><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><p>模拟相加过程，从右往左遍历，依次相加</p><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">addStrings</span><span class="params">(String num1, String num2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> i = num1.length() - <span class="number">1</span>, j = num2.length() - <span class="number">1</span>, add = <span class="number">0</span>;</span><br><span class="line">        StringBuffer ans = <span class="keyword">new</span> StringBuffer();</span><br><span class="line">        <span class="keyword">while</span> (i &gt;= <span class="number">0</span> || j &gt;= <span class="number">0</span> || add != <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">int</span> x = i &gt;= <span class="number">0</span> ? num1.charAt(i) - <span class="string">'0'</span> : <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">int</span> y = j &gt;= <span class="number">0</span> ? num2.charAt(j) - <span class="string">'0'</span> : <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">int</span> result = x + y + add;</span><br><span class="line">            ans.append(result % <span class="number">10</span>);</span><br><span class="line">            add = result / <span class="number">10</span>;</span><br><span class="line">            i--;</span><br><span class="line">            j--;</span><br><span class="line">        &#125;</span><br><span class="line">        ans.reverse();</span><br><span class="line">        <span class="keyword">return</span> ans.toString();  </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;算法日记-LeetCode-105-从前序遍历和中序遍历构造二叉树&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-105-从前序遍历和中序遍历构造二叉树&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-105-从前序遍历和中序
-      
+      &lt;h1 id=&quot;算法日记-LeetCode-415-字符串相加&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-415-字符串相加&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-415.字符串相加&quot;&gt;&lt;/a&gt;算法日记-LeetCode-415.字符串相加&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/add-strings/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;415. 字符串相加 - 力扣（LeetCode）&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -479,62 +268,254 @@
     
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
-      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+  </entry>
+  
+  <entry>
+    <title>算法日记-LeetCode-94.二叉树的中序遍历</title>
+    <link href="https://naskete.github.io/2023/07/16/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-94.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86/"/>
+    <id>https://naskete.github.io/2023/07/16/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-94.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86/</id>
+    <published>2023-07-16T14:26:20.000Z</published>
+    <updated>2023-08-07T15:34:29.059Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-94-二叉树的中序遍历"><a href="#算法日记-LeetCode-94-二叉树的中序遍历" class="headerlink" title="算法日记-LeetCode-94.二叉树的中序遍历"></a>算法日记-LeetCode-94.二叉树的中序遍历</h1><p>原题链接：<a href="https://leetcode.cn/problems/binary-tree-inorder-traversal/description/" target="_blank" rel="noopener">94. 二叉树的中序遍历 - 力扣（LeetCode）</a></p><a id="more"></a><h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给定一个二叉树的根节点 <code>root</code> ，返回 <em>它的 <strong>中序</strong> 遍历</em></p><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><ol><li><p>迭代</p></li><li><p>递归</p></li></ol><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><ol><li>迭代</li></ol><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;Integer&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode root)</span> </span>&#123;</span><br><span class="line">        List&lt;Integer&gt; list = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        <span class="keyword">if</span>(root == <span class="keyword">null</span>) <span class="keyword">return</span> list;</span><br><span class="line">        Stack&lt;TreeNode&gt; stack = <span class="keyword">new</span> Stack&lt;&gt;();</span><br><span class="line">        TreeNode node = root;</span><br><span class="line">        <span class="keyword">while</span>(!stack.empty() || node != <span class="keyword">null</span>)&#123;</span><br><span class="line">            <span class="keyword">while</span>(node != <span class="keyword">null</span>)&#123;</span><br><span class="line">                stack.push(node);</span><br><span class="line">                node = node.left;</span><br><span class="line">            &#125;</span><br><span class="line">            node = stack.pop();</span><br><span class="line">            list.add(node.val);</span><br><span class="line">            node = node.right;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> list;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol start="2"><li>递归</li></ol><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;Integer&gt; <span class="title">inorderTraversal</span><span class="params">(TreeNode root)</span> </span>&#123;</span><br><span class="line">        List&lt;Integer&gt; list = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        traversal(root, list);</span><br><span class="line">        <span class="keyword">return</span> list;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">traversal</span><span class="params">(TreeNode root, List&lt;Integer&gt; list)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(root==<span class="keyword">null</span>) <span class="keyword">return</span>;</span><br><span class="line">        traversal(root.left, list);</span><br><span class="line">        list.add(root.val);</span><br><span class="line">        traversal(root.right, list);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;算法日记-LeetCode-94-二叉树的中序遍历&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-94-二叉树的中序遍历&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-94.二叉树的中序遍历&quot;&gt;&lt;/a&gt;算法日记-LeetCode-94.二叉树的中序遍历&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/binary-tree-inorder-traversal/description/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;94. 二叉树的中序遍历 - 力扣（LeetCode）&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
     
       <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
       <category term="二叉树" scheme="https://Naskete.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
     
   </entry>
   
   <entry>
-    <title>算法日记-99-恢复二叉搜索树</title>
-    <link href="https://naskete.github.io/2023/07/21/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-99.%E6%81%A2%E5%A4%8D%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/"/>
-    <id>https://naskete.github.io/2023/07/21/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-99.%E6%81%A2%E5%A4%8D%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/</id>
-    <published>2023-07-21T13:35:38.000Z</published>
-    <updated>2023-07-29T16:21:09.418Z</updated>
+    <title>算法日记-LeetCode-18.四数之和</title>
+    <link href="https://naskete.github.io/2023/07/15/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-18.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/"/>
+    <id>https://naskete.github.io/2023/07/15/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-18.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C/</id>
+    <published>2023-07-15T15:30:45.000Z</published>
+    <updated>2023-07-16T14:17:00.358Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-99-恢复二叉搜索树"><a href="#算法日记-LeetCode-99-恢复二叉搜索树" class="headerlink" title="算法日记-LeetCode-99-恢复二叉搜索树"></a>算法日记-LeetCode-99-恢复二叉搜索树</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-18-四数之和"><a href="#算法日记-LeetCode-18-四数之和" class="headerlink" title="算法日记-LeetCode-18.四数之和"></a>算法日记-LeetCode-18.四数之和</h1><p>原题链接：<a href="https://leetcode.cn/problems/4sum/" target="_blank" rel="noopener">18. 四数之和 - 力扣（LeetCode）</a></p><a id="more"></a><h3 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h3><p>给定一个无序数组nums，以及目标值target，请你找出并返回满足下述全部条件且<strong>不重复</strong>的四元组 <code>[nums[a], nums[b], nums[c], nums[d]]</code></p><ul><li><p>0 &lt;= a &lt; b &lt; c&lt; d &lt; n</p></li><li><p>nums[a] + nums[b] + nums[c] + nums[d] = target</p></li></ul><h3 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h3><h4 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h4><p>最直接的解决方法就是通过四重循环，但是四重循环的时间复杂度高，会超时</p><h4 id="排序-双指针"><a href="#排序-双指针" class="headerlink" title="排序 + 双指针"></a>排序 + 双指针</h4><p>四数之和与三数之和类型，可以通过，排序+双指针的方式，减少一重循环</p><p>对数组进行排序，然后通过两重循环确定nums[a]，nums[b]</p><p>随后借助双指针left和right确定nums[c]和nums[d]</p><p>sum = nums[left] + nums[right]</p><ul><li><p>nums[a] + nums[b] + sum == target 满足条件</p></li><li><p>nums[a] + nums[b] + sum &gt; target 右指针左移</p></li><li><p>nums[a] + nums[b] + sum &lt; target 左指针右移</p></li></ul><h3 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> List&lt;List&lt;Integer&gt;&gt; fourSum(<span class="keyword">int</span>[] nums, <span class="keyword">int</span> target) &#123;</span><br><span class="line">        Arrays.sort(nums);</span><br><span class="line">        <span class="keyword">int</span> n = nums.length;</span><br><span class="line">        List&lt;List&lt;Integer&gt;&gt; list = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> a = <span class="number">0</span>; a &lt; n - <span class="number">3</span>; a++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (a &gt; <span class="number">0</span> &amp;&amp; nums[a] == nums[a - <span class="number">1</span>]) <span class="keyword">continue</span>;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> b = a + <span class="number">1</span>; b &lt; n - <span class="number">2</span>; b ++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (b &gt; a + <span class="number">1</span> &amp;&amp; nums[b] == nums[b - <span class="number">1</span>]) <span class="keyword">continue</span>;</span><br><span class="line">                <span class="keyword">int</span> left = b + <span class="number">1</span>, right = n - <span class="number">1</span>;</span><br><span class="line">                <span class="keyword">while</span> (left &lt; right) &#123;</span><br><span class="line">                    <span class="keyword">long</span> sum = nums[left] + nums[right]; <span class="comment">// long 型防止溢出</span></span><br><span class="line">                    <span class="keyword">if</span> (nums[a] + nums[b] == target - sum) &#123;</span><br><span class="line">                        List&lt;Integer&gt; ans = <span class="keyword">new</span> ArrayList&lt;&gt;(Arrays.asList(nums[a], nums[b], nums[left], nums[right]));</span><br><span class="line">                        list.add(ans);</span><br><span class="line">                        <span class="keyword">while</span>(left &lt; right &amp;&amp; nums[left] == nums[left + <span class="number">1</span>]) left++;</span><br><span class="line">                        <span class="keyword">while</span>(right &gt; left &amp;&amp; nums[right] == nums[right - <span class="number">1</span>]) right--;</span><br><span class="line">                        left++;</span><br><span class="line">                        right--;</span><br><span class="line">                    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (nums[a] + nums[b] &gt; target - sum) &#123;</span><br><span class="line">                        right--;</span><br><span class="line">                    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (nums[a] + nums[b] &lt; target - sum)&#123;</span><br><span class="line">                        left++;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> list;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="0ms-范例"><a href="#0ms-范例" class="headerlink" title="0ms 范例"></a>0ms 范例</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> List&lt;List&lt;Integer&gt;&gt; fourSum(<span class="keyword">int</span>[] nums, <span class="keyword">int</span> target) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> AbstractList&lt;List&lt;Integer&gt;&gt;() &#123;</span><br><span class="line">            List&lt;List&lt;Integer&gt;&gt; list = <span class="keyword">null</span>;</span><br><span class="line"></span><br><span class="line">            <span class="function"><span class="keyword">public</span> List&lt;Integer&gt; <span class="title">get</span><span class="params">(<span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">                init();</span><br><span class="line">                <span class="keyword">return</span> list.get(index);</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">size</span><span class="params">()</span> </span>&#123;</span><br><span class="line">                init();</span><br><span class="line">                <span class="keyword">return</span> list.size();</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">init</span><span class="params">()</span> </span>&#123;</span><br><span class="line">                <span class="keyword">if</span> (list != <span class="keyword">null</span>) &#123;</span><br><span class="line">                    <span class="keyword">return</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">final</span> Set&lt;List&lt;Integer&gt;&gt; listSet = <span class="keyword">new</span> HashSet&lt;&gt;();</span><br><span class="line">                Arrays.sort(nums);</span><br><span class="line">                <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; nums.length - <span class="number">3</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = nums.length - <span class="number">1</span>; j &gt; i + <span class="number">2</span>; j--) &#123;</span><br><span class="line">                <span class="keyword">int</span> l = i + <span class="number">1</span>;</span><br><span class="line">                <span class="keyword">int</span> r = j - <span class="number">1</span>;</span><br><span class="line">                <span class="keyword">while</span> (l &lt; r) &#123;</span><br><span class="line">                    <span class="keyword">long</span> m = (<span class="keyword">long</span>) nums[i] + (<span class="keyword">long</span>) nums[j] + (<span class="keyword">long</span>) nums[l] + (<span class="keyword">long</span>) nums[r];</span><br><span class="line">                    <span class="keyword">if</span> (m ==  target) &#123;</span><br><span class="line">                        listSet.add(Arrays.asList(nums[i], nums[j], nums[l], nums[r]));</span><br><span class="line">                        l++;</span><br><span class="line">                        r--;</span><br><span class="line">                    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (m &gt; target) &#123;</span><br><span class="line">                        r--;</span><br><span class="line">                    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                        l++;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">                list = <span class="keyword">new</span> ArrayList&lt;&gt;(listSet);</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">        &#125;;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;算法日记-LeetCode-99-恢复二叉搜索树&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-99-恢复二叉搜索树&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-99-恢复二叉搜索树&quot;&gt;&lt;/a&gt;算法日记-LeetCode-
-      
+      &lt;h1 id=&quot;算法日记-LeetCode-18-四数之和&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-18-四数之和&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-18.四数之和&quot;&gt;&lt;/a&gt;算法日记-LeetCode-18.四数之和&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/4sum/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;18. 四数之和 - 力扣（LeetCode）&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
     
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
-      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+      <category term="双指针" scheme="https://Naskete.github.io/tags/%E5%8F%8C%E6%8C%87%E9%92%88/"/>
     
   </entry>
   
   <entry>
-    <title>算法日记-918-环形子数组的最大和</title>
-    <link href="https://naskete.github.io/2023/07/20/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-918.%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/"/>
-    <id>https://naskete.github.io/2023/07/20/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-918.%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/</id>
-    <published>2023-07-20T14:33:16.000Z</published>
-    <updated>2023-08-07T16:13:25.047Z</updated>
+    <title>算法日记-LeetCode-931-下降路径最小和</title>
+    <link href="https://naskete.github.io/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/"/>
+    <id>https://naskete.github.io/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/</id>
+    <published>2023-07-13T15:53:07.000Z</published>
+    <updated>2023-07-16T14:17:11.542Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-918-环形子数组的最大和"><a href="#算法日记-LeetCode-918-环形子数组的最大和" class="headerlink" title="算法日记-LeetCode-918.环形子数组的最大和"></a>算法日记-LeetCode-918.环形子数组的最大和</h1><p>原题链接：</p><a id="more"></a><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给定一个长度为 <code>n</code> 的<strong>环形整数数组</strong> <code>nums</code> ，返回 <code>nums</code>的 非空 <strong>子数组</strong> 的最大可能和</p><h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-931-下降路径最小和"><a href="#算法日记-LeetCode-931-下降路径最小和" class="headerlink" title="算法日记-LeetCode-931.下降路径最小和"></a>算法日记-LeetCode-931.下降路径最小和</h1><p>原题链接：<a href="https://leetcode.cn/problems/minimum-falling-path-sum/" target="_blank" rel="noopener">931. 下降路径最小和 - 力扣（LeetCode）</a></p><a id="more"></a><h3 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h3><p>给定一个n x n的矩阵 matrix，求出通过 matrix 的<strong>下降路径</strong> 的<strong>最小和</strong> 。</p><p><strong>下降路径</strong>：从第一行中的任意元素开始往下，往下的过程中可以选择左下，正下，右下方的元素，即(i, j) 可以选择(i + 1, j - 1)，(i + 1, j)，(i + 1, j + 1)作为下一个元素。</p><p>示例</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入：matrix = [[<span class="number">2</span>,<span class="number">1</span>,<span class="number">3</span>],[<span class="number">6</span>,<span class="number">5</span>,<span class="number">4</span>],[<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>]]</span><br><span class="line">输出：<span class="number">13</span></span><br></pre></td></tr></table></figure><img src="/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/example.png" class title="loading-ag-1028"><h3 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h3><p>这题是dp问题，也就是动态规划类的问题，我们需要找出状态转移方程。</p><p>根据题意，我们知道，我们从上往下走，可以从当前行元素，选择下一行中的特定三个值。</p><img src="/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/model.png" class title="loading-ag-1030"><p>通过dp数组记录答案，dp[i][j]表示的是，从第一行到(i,j)位置的下降路径最小和，即dp数组中的每一个元素都是对应位置所求的答案。最后我们只要在最后一行，即dp[n - 1]中，找到最小值即可。</p><p>dp[i][j]的值，是martix[i][j]与上一行中三个相关位置的值，依赖关系如下：</p><img src="/2023/07/13/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-931.%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C/trans.png" class title="loading-ag-1032"><p>所以可以得到转移方程</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">dp[i][j] = martix[i][j] + min(dp[i - <span class="number">1</span>][j-<span class="number">1</span>], dp[i - <span class="number">1</span>][j], dp[i - <span class="number">1</span>][j + <span class="number">1</span>])</span><br></pre></td></tr></table></figure><p>即矩阵中的当前值，和dp数组中，可能到达给位置的最小值的和</p><p>需要注意边界，dp[i][0]，dp[i][n - 1]，这两个位置一个在最左边，一个在最右边，只与上一行中的两个值有关。</p><h3 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下"></a>代码如下</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">minFallingPathSum</span><span class="params">(<span class="keyword">int</span>[][] matrix)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> n = matrix.length;</span><br><span class="line">        <span class="keyword">int</span>[][] dp = <span class="keyword">new</span> <span class="keyword">int</span>[n][n];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">            dp[<span class="number">0</span>][i] = matrix[<span class="number">0</span>][i];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (n == <span class="number">1</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> dp[<span class="number">0</span>][<span class="number">0</span>];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (j == <span class="number">0</span>) &#123;</span><br><span class="line">                    dp[i][j] = matrix[i][j] + Math.min(dp[i - <span class="number">1</span>][j], dp[i - <span class="number">1</span>][j + <span class="number">1</span>]);</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (j == n - <span class="number">1</span>) &#123;</span><br><span class="line">                    dp[i][j] = matrix[i][j] + Math.min(dp[i - <span class="number">1</span>][j - <span class="number">1</span>], dp[i - <span class="number">1</span>][j]);</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    dp[i][j] = matrix[i][j] + Math.min(Math.min(dp[i - <span class="number">1</span>][j - <span class="number">1</span>], dp[i - <span class="number">1</span>][j]), dp[i - <span class="number">1</span>][j + <span class="number">1</span>]);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> min = dp[n - <span class="number">1</span>][<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; i++) &#123;</span><br><span class="line">            min = Math.min(min, dp[n - <span class="number">1</span>][i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// int min = Arrays.stream(dp[n - 1]).min().getAsInt();</span></span><br><span class="line">        <span class="keyword">return</span> min;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="0ms范例"><a href="#0ms范例" class="headerlink" title="0ms范例"></a>0ms范例</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">minFallingPathSum</span><span class="params">(<span class="keyword">int</span>[][] matrix)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> n = matrix.length;</span><br><span class="line">        <span class="keyword">int</span>[] dp = <span class="keyword">new</span> <span class="keyword">int</span>[n];</span><br><span class="line">        System.arraycopy(matrix[<span class="number">0</span>], <span class="number">0</span>, dp, <span class="number">0</span>, n);</span><br><span class="line">        dp = dfs(matrix, dp, <span class="number">1</span>, n);</span><br><span class="line">        <span class="keyword">int</span> res = Integer.MAX_VALUE;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; n; ++j) &#123;</span><br><span class="line">            res = Math.min(res, dp[j]);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span>[] dfs(<span class="keyword">int</span>[][] matrix, <span class="keyword">int</span>[] dp, <span class="keyword">int</span> depth, <span class="keyword">int</span> n) &#123;</span><br><span class="line">        <span class="keyword">if</span> (depth == n) &#123;</span><br><span class="line">            <span class="keyword">return</span> dp;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span>[] nextDp = <span class="keyword">new</span> <span class="keyword">int</span>[n];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; ++i) &#123;</span><br><span class="line">            <span class="keyword">int</span> cur = dp[i];</span><br><span class="line">            <span class="keyword">if</span> (i &gt; <span class="number">0</span>) cur = Math.min(cur, dp[i - <span class="number">1</span>]);</span><br><span class="line">            <span class="keyword">if</span> (i &lt; n - <span class="number">1</span>) cur = Math.min(cur, dp[i + <span class="number">1</span>]);</span><br><span class="line">            nextDp[i] = cur + matrix[depth][i];</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> dfs(matrix, nextDp, depth + <span class="number">1</span>, n);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;算法日记-LeetCode-918-环形子数组的最大和&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-918-环形子数组的最大和&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-918.环形子数组的最大和&quot;&gt;&lt;/a&gt;算法日记-LeetCode-918.环形子数组的最大和&lt;/h1&gt;&lt;p&gt;原题链接：&lt;/p&gt;
+      &lt;h1 id=&quot;算法日记-LeetCode-931-下降路径最小和&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-931-下降路径最小和&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-931.下降路径最小和&quot;&gt;&lt;/a&gt;算法日记-LeetCode-931.下降路径最小和&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/minimum-falling-path-sum/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;931. 下降路径最小和 - 力扣（LeetCode）&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
     
       <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
+      <category term="动态规划" scheme="https://Naskete.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在服务器运行kafka</title>
+    <link href="https://naskete.github.io/2023/07/12/essay/%E5%9C%A8%E6%9C%8D%E5%8A%A1%E8%BF%90%E8%A1%8Ckafka/"/>
+    <id>https://naskete.github.io/2023/07/12/essay/%E5%9C%A8%E6%9C%8D%E5%8A%A1%E8%BF%90%E8%A1%8Ckafka/</id>
+    <published>2023-07-12T15:17:11.000Z</published>
+    <updated>2023-07-12T15:17:11.495Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>算法日记-LeetCode-2544-交替数字和</title>
+    <link href="https://naskete.github.io/2023/07/12/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-2544.%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C/"/>
+    <id>https://naskete.github.io/2023/07/12/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-2544.%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C/</id>
+    <published>2023-07-12T14:13:46.000Z</published>
+    <updated>2023-08-17T16:21:00.277Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="LeetCode-2544-交替数字和"><a href="#LeetCode-2544-交替数字和" class="headerlink" title="LeetCode-2544.交替数字和"></a>LeetCode-2544.交替数字和</h1><p>原题链接：<a href="https://leetcode.cn/problems/alternating-digit-sum/" target="_blank" rel="noopener">2544. 交替数字和 - 力扣（LeetCode）</a></p><a id="more"></a><h3 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h3><p>给定一个数字，奇数位的数字取正值，偶数位的数字取负值，求最后和的值。</p><p>示例：</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入：<span class="number">524</span></span><br><span class="line">输出：<span class="number">7</span></span><br><span class="line">说明：<span class="number">5</span> + （-<span class="number">2</span>） + <span class="number">4</span> = <span class="number">7</span></span><br></pre></td></tr></table></figure><h3 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h3><p>通过标志位flag来控制符号，flag初始值为1，用于控制数字每一位的符号。</p><p>获取每一位的数值，可以通过将数字转换为字符串，然后遍历；或者取余，借助栈存储每一位的值。</p><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">alternateDigitSum</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">        String num = String.valueOf(n);</span><br><span class="line">        <span class="keyword">int</span> sum = <span class="number">0</span>, flag = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">int</span> len = num.length();</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len; i++) &#123;</span><br><span class="line">            sum += (num.charAt(i) - <span class="number">48</span>) * flag;</span><br><span class="line">            flag = -flag;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> sum;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;LeetCode-2544-交替数字和&quot;&gt;&lt;a href=&quot;#LeetCode-2544-交替数字和&quot; class=&quot;headerlink&quot; title=&quot;LeetCode-2544.交替数字和&quot;&gt;&lt;/a&gt;LeetCode-2544.交替数字和&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/alternating-digit-sum/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;2544. 交替数字和 - 力扣（LeetCode）&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法日记-LeetCode-1911-最大子序列交替和</title>
+    <link href="https://naskete.github.io/2023/07/11/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-1911.%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C/"/>
+    <id>https://naskete.github.io/2023/07/11/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-1911.%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C/</id>
+    <published>2023-07-11T15:05:00.000Z</published>
+    <updated>2023-07-16T14:16:36.794Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-1911-最大子序列交替和"><a href="#算法日记-LeetCode-1911-最大子序列交替和" class="headerlink" title="算法日记-LeetCode-1911.最大子序列交替和"></a>算法日记-LeetCode-1911.最大子序列交替和</h1><p>原题链接：<a href="https://leetcode.cn/problems/maximum-alternating-subsequence-sum/" target="_blank" rel="noopener">1911. 最大子序列交替和 - 力扣（LeetCode）</a></p><a id="more"></a><h3 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h3><p>给定一个数组，定义奇数位取正值，偶数位取负值，得到的和为交替和，求出在该数组，所有子序列中，最大的交替和。</p><p>子序列：不改变相对顺序删除数组中0~n-1个值，n为数组长度。</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入：nums = [<span class="number">4</span>,<span class="number">2</span>,<span class="number">5</span>,<span class="number">3</span>]</span><br><span class="line">输出：<span class="number">7</span></span><br><span class="line">解释：最优子序列为 [<span class="number">4</span>,<span class="number">2</span>,<span class="number">5</span>] ，交替和为 (<span class="number">4</span> + <span class="number">5</span>) - <span class="number">2</span> = <span class="number">7</span> 。</span><br></pre></td></tr></table></figure><h3 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h3><h4 id="暴力解"><a href="#暴力解" class="headerlink" title="暴力解"></a>暴力解</h4><p>按最粗暴的方式，求出数组的所有子序列，再得到每个子序列的交替和，然后最大的值即为解。</p><p>求子序列和的方式，</p><p>子序列就是从数组中删除0个或者多个值，且其相对顺序不变</p><p>比如:</p><p>[1, 2, 3] 的子序列</p><ul><li><p>[1, 2, 3]</p></li><li><p>[1, 2]</p></li><li><p>[1, 3]</p></li><li><p>[2, 3]</p></li><li><p>[1]</p></li><li><p>[2]</p></li><li><p>[3]</p></li></ul><p>求子序列的思路</p><p>遍历数组，对数组中的每一个值，可以选择保留或者删除，最后得到的所有可能的结果就是所有的子序列。</p><p>编写递归函数求解，结束条件为，遍历结束</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * nums 给定的数组</span></span><br><span class="line"><span class="comment"> * cur 遍历过程中的当前索引</span></span><br><span class="line"><span class="comment"> * len 数组长度，递归终止条件</span></span><br><span class="line"><span class="comment"> * val 到cur位置得到的交替和结果</span></span><br><span class="line"><span class="comment"> * flag 正负1，用于控制交替和的符号</span></span><br><span class="line"><span class="comment"> * value 结果数组，用于保存最后的交替和结果</span></span><br><span class="line"><span class="comment"> **/</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">getAlternatingSubSequenceSum</span><span class="params">(<span class="keyword">int</span>[] nums, <span class="keyword">int</span> cur, <span class="keyword">int</span> len, <span class="keyword">int</span> val, <span class="keyword">int</span> flag, List&lt;Integer&gt; value)</span></span></span><br></pre></td></tr></table></figure><h3 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h3><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><h4 id="暴力解——超出内存限制"><a href="#暴力解——超出内存限制" class="headerlink" title="暴力解——超出内存限制"></a>暴力解——超出内存限制</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">long</span> <span class="title">maxAlternatingSum</span><span class="params">(<span class="keyword">int</span>[] nums)</span> </span>&#123;</span><br><span class="line">        List&lt;Integer&gt; list = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        <span class="keyword">int</span> n = nums.length;</span><br><span class="line">        getAlternatingSubSequenceSum(nums, <span class="number">0</span>, n, <span class="number">0</span>, <span class="number">1</span>, list);</span><br><span class="line">        <span class="keyword">int</span> max = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> v : list) &#123;</span><br><span class="line">            max = Math.max(v, max);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> max;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 获取所有子序列的交替和</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">getAlternatingSubSequenceSum</span><span class="params">(<span class="keyword">int</span>[] nums, <span class="keyword">int</span> cur, <span class="keyword">int</span> len, <span class="keyword">int</span> val, <span class="keyword">int</span> flag, List&lt;Integer&gt; value)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (cur == len) &#123;</span><br><span class="line">            value.add(val);</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// flag控制符号</span></span><br><span class="line">        <span class="keyword">int</span> add =val + flag * nums[cur]; <span class="comment">// 当前元素保留</span></span><br><span class="line">        getAlternatingSubSequenceSum(nums, cur + <span class="number">1</span>, len, add, -flag, value);</span><br><span class="line">        <span class="keyword">int</span> next = val; <span class="comment">// 当前元素不保留</span></span><br><span class="line">        getAlternatingSubSequenceSum(nums, cur + <span class="number">1</span>, len, next, flag, value);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="官方题解"><a href="#官方题解" class="headerlink" title="官方题解"></a>官方题解</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">long</span> <span class="title">maxAlternatingSum</span><span class="params">(<span class="keyword">int</span>[] nums)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">long</span> even = nums[<span class="number">0</span>], odd = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; nums.length; i++) &#123;</span><br><span class="line">            even = Math.max(even, odd + nums[i]);</span><br><span class="line">            odd = Math.max(odd, even - nums[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> even;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>理解：</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;算法日记-LeetCode-1911-最大子序列交替和&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-1911-最大子序列交替和&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-1911.最大子序列交替和&quot;&gt;&lt;/a&gt;算法日记-LeetCode-1911.最大子序列交替和&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/maximum-alternating-subsequence-sum/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1911. 最大子序列交替和 - 力扣（LeetCode）&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
+      <category term="子序列" scheme="https://Naskete.github.io/tags/%E5%AD%90%E5%BA%8F%E5%88%97/"/>
+    
+      <category term="动态规划" scheme="https://Naskete.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法日记-LeetCode-111-二叉树的最小深度</title>
+    <link href="https://naskete.github.io/2023/07/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-111.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6/"/>
+    <id>https://naskete.github.io/2023/07/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-111.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6/</id>
+    <published>2023-07-10T15:15:57.000Z</published>
+    <updated>2023-07-16T14:16:45.836Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-111-二叉树的最小深度"><a href="#算法日记-LeetCode-111-二叉树的最小深度" class="headerlink" title="算法日记-LeetCode-111.二叉树的最小深度"></a>算法日记-LeetCode-111.二叉树的最小深度</h1><p>原题链接：<a href="https://leetcode.cn/problems/minimum-depth-of-binary-tree/" target="_blank" rel="noopener">111. 二叉树的最小深度 - 力扣（LeetCode）</a></p><a id="more"></a><h3 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h3><p>给定一颗二叉树，要求给出根节点到最近的叶子节点的路径所包含的节点个数。</p><img title src="/2023/07/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-111.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6/example.png" alt="loading-ag-1074" data-align="center"><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入：root = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="keyword">null</span>,<span class="keyword">null</span>,<span class="number">4</span>,<span class="number">5</span>]</span><br><span class="line">输出：<span class="number">2</span></span><br><span class="line">说明：<span class="number">1</span> -&gt; <span class="number">2</span> 共两个节点</span><br></pre></td></tr></table></figure><h3 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h3><h4 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h4><p>叶子节点，其左右子树都为null；我们可以通过判断左右子树来确定叶子节点，然后就需要计算出根节点到当前叶子节点的路径中包含了多少节点。</p><p>如何获取根节点到叶子节点的路径所包含的节点个数？</p><p>我们可以这样计算，将二叉树简化为一个根节点和左右两个子树。</p><p>根节点到其左子节点的距离就是1（根节点） + 左子节点的对应值</p><p>即我们可以不断的从子树获取所需的信息，然后进行相关的计算。</p><p>例如：</p><img src="/2023/07/10/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-111.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6/des.png" class><p>这里我们要得到节点1到叶子节点4包含的节点数</p><ul><li><p>从节点4开始，往左右子节点取值，左右子节点为空，返回0，算上本身，所以是1；</p></li><li><p>然后到节点3，节点3到节点4，节点3自己算一个，所以是1，然后获取节点4的对应值也是1，所以节点3到节点4的距离，可以记录为1（节点3自己） + 1（节点4的值） = 2</p></li><li><p>然后节点1到节点4经过右子节点3，节点1本身加上节点3到节点4的距离2，最后得到节点1到节点4的距离 1 + 2 = 3</p></li></ul><p>故按照这个思路，我们可以求得根节点到每一个叶子节点的值，最后取其中最小的即为符合题意的解。</p><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><p>递归解法：</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">minDepth</span><span class="params">(TreeNode root)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (root == <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root.left == <span class="keyword">null</span> &amp;&amp; root.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span> + minDepth(root.right);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (root.right == <span class="keyword">null</span> &amp;&amp; root.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span> + minDepth(root.left);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span> + Math.min(minDepth(root.left), minDepth(root.right));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;算法日记-LeetCode-111-二叉树的最小深度&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-111-二叉树的最小深度&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-111.二叉树的最小深度&quot;&gt;&lt;/a&gt;算法日记-LeetCode-111.二叉树的最小深度&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/minimum-depth-of-binary-tree/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;111. 二叉树的最小深度 - 力扣（LeetCode）&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
+      <category term="二叉树" scheme="https://Naskete.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    
+      <category term="递归" scheme="https://Naskete.github.io/tags/%E9%80%92%E5%BD%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法日记-LeetCode-15-三数之和</title>
+    <link href="https://naskete.github.io/2023/07/09/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-15.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8CII/"/>
+    <id>https://naskete.github.io/2023/07/09/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-15.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8CII/</id>
+    <published>2023-07-09T14:07:20.000Z</published>
+    <updated>2023-07-16T14:16:50.849Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-15-三数之和"><a href="#算法日记-LeetCode-15-三数之和" class="headerlink" title="算法日记-LeetCode-15-三数之和"></a>算法日记-LeetCode-15-三数之和</h1><p>原题链接：<a href="https://leetcode.cn/problems/3sum/" target="_blank" rel="noopener">15. 三数之和 - 力扣（LeetCode）</a> </p><a id="more"></a><h3 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h3><p>给定一个无序数组，数组长度[3, 3000]，求出所有满足nums[i] + nums[j] + nums[k] = 0的三元组，且i != j, j != k。</p><p>示例：</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入：nums = [-<span class="number">1</span>,<span class="number">0</span>,<span class="number">1</span>,<span class="number">2</span>,-<span class="number">1</span>,-<span class="number">4</span>]</span><br><span class="line">输出：[[-<span class="number">1</span>,-<span class="number">1</span>,<span class="number">2</span>],[-<span class="number">1</span>,<span class="number">0</span>,<span class="number">1</span>]]</span><br><span class="line">解释：</span><br><span class="line">nums[<span class="number">0</span>] + nums[<span class="number">1</span>] + nums[<span class="number">2</span>] = (-<span class="number">1</span>) + <span class="number">0</span> + <span class="number">1</span> = <span class="number">0</span> 。</span><br><span class="line">nums[<span class="number">1</span>] + nums[<span class="number">2</span>] + nums[<span class="number">4</span>] = <span class="number">0</span> + <span class="number">1</span> + (-<span class="number">1</span>) = <span class="number">0</span> 。</span><br><span class="line">nums[<span class="number">0</span>] + nums[<span class="number">3</span>] + nums[<span class="number">4</span>] = (-<span class="number">1</span>) + <span class="number">2</span> + (-<span class="number">1</span>) = <span class="number">0</span> 。</span><br><span class="line">不同的三元组是 [-<span class="number">1</span>,<span class="number">0</span>,<span class="number">1</span>] 和 [-<span class="number">1</span>,-<span class="number">1</span>,<span class="number">2</span>] 。</span><br><span class="line">注意，输出的顺序和三元组的顺序并不重要。</span><br></pre></td></tr></table></figure><h3 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h3><h4 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h4><p>通过三重循环遍历数组，找到满足条件的值，三重循环容易超时</p><h4 id="排序-双指针"><a href="#排序-双指针" class="headerlink" title="排序 + 双指针"></a>排序 + 双指针</h4><p>首先对数组进行排序，排序后可采用双指针的方式缩小范围得到目标值。</p><p>对排序后的数组进行遍历，如果nums[idx] &gt; 0，则之后肯定不存在满足条件的值，此时可以直接返回结果，且题目要求不重复，故需要对重复的元素进行跳过。</p><p>从i开始，令left = idx + 1, rigth = n - 1，则存在以下三种情况：</p><ul><li><p>nums[idx] + nums[left] + nums[right] = 0 ： 即为目标解</p></li><li><p>nums[idx] + nums[left] + nums[right] &gt; 0 : nums[right] 过大， right 左移；</p></li><li><p>nums[idx] + nums[left] + nums[right] &lt; 0 : nums[left] 过小， left 右移</p></li></ul><p>直到left与right相遇。</p><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> List&lt;List&lt;Integer&gt;&gt; threeSum(<span class="keyword">int</span>[] nums) &#123;</span><br><span class="line">        Arrays.sort(nums);</span><br><span class="line">        List&lt;List&lt;Integer&gt;&gt; list = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        <span class="keyword">int</span> idx = <span class="number">0</span>, n = nums.length;</span><br><span class="line">        <span class="keyword">while</span> (idx &lt; n) &#123;</span><br><span class="line">            <span class="keyword">if</span> (nums[idx] &gt; <span class="number">0</span>) &#123;</span><br><span class="line">                <span class="keyword">return</span> list;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">while</span> (idx &gt; <span class="number">0</span> &amp;&amp; idx &lt; n &amp;&amp; nums[idx] == nums[idx - <span class="number">1</span>]) &#123;</span><br><span class="line">                idx++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">int</span> left = idx + <span class="number">1</span>, right = n - <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">while</span>(left &lt; right) &#123;</span><br><span class="line">                <span class="keyword">if</span> (nums[idx] + nums[left] + nums[right] == <span class="number">0</span>) &#123;</span><br><span class="line">                    List&lt;Integer&gt; ans = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">                    ans.add(nums[idx]);</span><br><span class="line">                    ans.add(nums[left]);</span><br><span class="line">                    ans.add(nums[right]);</span><br><span class="line">                    list.add(ans);</span><br><span class="line">                    <span class="keyword">while</span> (left &lt; right &amp;&amp; nums[left] == nums[left + <span class="number">1</span>]) &#123;</span><br><span class="line">                        left++;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">while</span> (left &lt; right &amp;&amp; nums[right] == nums[right - <span class="number">1</span>]) &#123;</span><br><span class="line">                        right--;</span><br><span class="line">                    &#125;</span><br><span class="line">                    left++;</span><br><span class="line">                    right--;</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (nums[idx] + nums[left] + nums[right] &gt; <span class="number">0</span>) &#123;</span><br><span class="line">                    right--;</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (nums[idx] + nums[left] + nums[right] &lt; <span class="number">0</span>) &#123;</span><br><span class="line">                    left++;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            idx++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> list;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;算法日记-LeetCode-15-三数之和&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-15-三数之和&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-15-三数之和&quot;&gt;&lt;/a&gt;算法日记-LeetCode-15-三数之和&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/3sum/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;15. 三数之和 - 力扣（LeetCode）&lt;/a&gt; &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
+      <category term="双指针" scheme="https://Naskete.github.io/tags/%E5%8F%8C%E6%8C%87%E9%92%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法日记-LeetCode-167.两数之和</title>
+    <link href="https://naskete.github.io/2023/07/08/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-167.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8CII/"/>
+    <id>https://naskete.github.io/2023/07/08/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-167.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8CII/</id>
+    <published>2023-07-08T10:27:29.000Z</published>
+    <updated>2023-07-16T14:16:56.294Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="算法日记-LeetCode-167-两数之和"><a href="#算法日记-LeetCode-167-两数之和" class="headerlink" title="算法日记-LeetCode-167.两数之和"></a>算法日记-LeetCode-167.两数之和</h1><p>原题链接：<a href="https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/" target="_blank" rel="noopener">167. 两数之和 II - 输入有序数组 - 力扣（LeetCode）</a>  </p><a id="more"></a><h3 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h3><p>给出一个有序非递减数组numbers以及一个目标值target，要求求出数组中和为target的两个数字的下标</p><p>每个输入 <strong>只对应唯一的答案</strong> ，而且<strong>不可以</strong> 重复使用相同的元素</p><p>示例：</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入：numbers = [<span class="number">2</span>,<span class="number">7</span>,<span class="number">11</span>,<span class="number">15</span>], target = <span class="number">9</span></span><br><span class="line">输出：[<span class="number">1</span>,<span class="number">2</span>]</span><br><span class="line">解释：<span class="number">2</span> 与 <span class="number">7</span> 之和等于目标数 <span class="number">9</span> 。因此 index1 = <span class="number">1</span>, index2 = <span class="number">2</span> 。返回 [<span class="number">1</span>, <span class="number">2</span>] 。</span><br></pre></td></tr></table></figure><h3 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h3><p>给出数组为有序数组，且非递减，即numbers[i] &lt;= numbers[i+ 1]，且题目中给出了答案唯一的限制</p><p>采用双指针的方法，left和right分别指向数组的左右两端，得到的和sum 与target进行比较，如果sum &gt; target，则右侧指针向左移动；反之左侧指针向右移动。</p><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">int</span>[] twoSum(<span class="keyword">int</span>[] numbers, <span class="keyword">int</span> target) &#123;</span><br><span class="line">        <span class="keyword">int</span> n = numbers.length;</span><br><span class="line">        <span class="keyword">int</span> left = <span class="number">0</span>, right = n - <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span> (left &lt; right) &#123;</span><br><span class="line">            <span class="keyword">int</span> sum = numbers[left] + numbers[right];</span><br><span class="line">            <span class="keyword">if</span> (sum == target) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">new</span> <span class="keyword">int</span>[]&#123;left + <span class="number">1</span>, right + <span class="number">1</span>&#125;;</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span> (sum &gt; target) &#123;</span><br><span class="line">                right--;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                left++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="keyword">int</span>[] &#123;-<span class="number">1</span>, -<span class="number">1</span>&#125;;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;算法日记-LeetCode-167-两数之和&quot;&gt;&lt;a href=&quot;#算法日记-LeetCode-167-两数之和&quot; class=&quot;headerlink&quot; title=&quot;算法日记-LeetCode-167.两数之和&quot;&gt;&lt;/a&gt;算法日记-LeetCode-167.两数之和&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;167. 两数之和 II - 输入有序数组 - 力扣（LeetCode）&lt;/a&gt;  &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
+    
+      <category term="双指针" scheme="https://Naskete.github.io/tags/%E5%8F%8C%E6%8C%87%E9%92%88/"/>
     
   </entry>
   
