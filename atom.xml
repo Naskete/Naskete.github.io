@@ -129,21 +129,6 @@
   </entry>
   
   <entry>
-    <title>JAVA解析json</title>
-    <link href="https://naskete.github.io/2023/08/06/essay/JAVA%E8%A7%A3%E6%9E%90json/"/>
-    <id>https://naskete.github.io/2023/08/06/essay/JAVA%E8%A7%A3%E6%9E%90json/</id>
-    <published>2023-08-06T14:17:13.000Z</published>
-    <updated>2023-08-06T14:17:13.147Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>算法日记-LeetCode-24.两两交换链表中的节点</title>
     <link href="https://naskete.github.io/2023/08/06/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-24.%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9/"/>
     <id>https://naskete.github.io/2023/08/06/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-24.%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9/</id>
@@ -165,36 +150,6 @@
       <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
     
       <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>寻找链表的中点</title>
-    <link href="https://naskete.github.io/2023/07/31/essay/%E5%AF%BB%E6%89%BE%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E7%82%B9/"/>
-    <id>https://naskete.github.io/2023/07/31/essay/%E5%AF%BB%E6%89%BE%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E7%82%B9/</id>
-    <published>2023-07-31T15:58:17.000Z</published>
-    <updated>2023-07-31T15:58:17.849Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>二叉树的遍历</title>
-    <link href="https://naskete.github.io/2023/07/30/essay/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/"/>
-    <id>https://naskete.github.io/2023/07/30/essay/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/</id>
-    <published>2023-07-29T16:23:01.000Z</published>
-    <updated>2023-07-29T16:23:01.141Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
     
   </entry>
   
@@ -358,21 +313,6 @@
   </entry>
   
   <entry>
-    <title>在服务器运行kafka</title>
-    <link href="https://naskete.github.io/2023/07/12/essay/%E5%9C%A8%E6%9C%8D%E5%8A%A1%E8%BF%90%E8%A1%8Ckafka/"/>
-    <id>https://naskete.github.io/2023/07/12/essay/%E5%9C%A8%E6%9C%8D%E5%8A%A1%E8%BF%90%E8%A1%8Ckafka/</id>
-    <published>2023-07-12T15:17:11.000Z</published>
-    <updated>2023-07-12T15:17:11.495Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>算法日记-LeetCode-2544-交替数字和</title>
     <link href="https://naskete.github.io/2023/07/12/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-2544.%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C/"/>
     <id>https://naskete.github.io/2023/07/12/algorithm/%E7%AE%97%E6%B3%95%E6%97%A5%E8%AE%B0-LeetCode-2544.%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C/</id>
@@ -516,6 +456,112 @@
       <category term="leetcode" scheme="https://Naskete.github.io/tags/leetcode/"/>
     
       <category term="双指针" scheme="https://Naskete.github.io/tags/%E5%8F%8C%E6%8C%87%E9%92%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JAVA中的反转操作（二）</title>
+    <link href="https://naskete.github.io/2023/03/08/algorithm/java%E4%B8%AD%E7%9A%84%E5%8F%8D%E8%BD%AC%E6%93%8D%E4%BD%9C%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>https://naskete.github.io/2023/03/08/algorithm/java%E4%B8%AD%E7%9A%84%E5%8F%8D%E8%BD%AC%E6%93%8D%E4%BD%9C%EF%BC%88%E4%BA%8C%EF%BC%89/</id>
+    <published>2023-03-08T14:28:00.000Z</published>
+    <updated>2023-07-08T11:16:18.994Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="JAVA中的反转操作（二）-——-反转链表"><a href="#JAVA中的反转操作（二）-——-反转链表" class="headerlink" title="JAVA中的反转操作（二） —— 反转链表"></a>JAVA中的反转操作（二） —— 反转链表</h1><h2 id="节点定义"><a href="#节点定义" class="headerlink" title="节点定义"></a>节点定义</h2><p>对于链表的节点定义如下，这里只给出单链表的结构</p><a id="more"></a><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ListNode</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">int</span> val;</span><br><span class="line">    <span class="keyword">public</span> ListNode next;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ListNode</span><span class="params">()</span> </span>&#123;&#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ListNode</span><span class="params">(<span class="keyword">int</span> val)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.val = val;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ListNode</span><span class="params">(<span class="keyword">int</span> val, ListNode next)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.val = val;</span><br><span class="line">        <span class="keyword">this</span>.next = next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="反转过程"><a href="#反转过程" class="headerlink" title="反转过程"></a>反转过程</h2><p>效果如下:</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A((0)) ---&gt; B((1)) ---&gt; C((2)) ---&gt; D((3)) ---&gt; E((4))</span><br><span class="line">F((4)) ---&gt; G((3)) ---&gt; H((2)) ---&gt; I((1)) ---&gt; J((0))</span><br></pre></td></tr></table></figure><p>具体实现：</p><p>分别用pre, cur，next指针进行定位，pre先指向null, cur指向当前head，next指向null，标记cur的下一个节点</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> ListNode <span class="title">reverseList</span><span class="params">(ListNode head)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        ListNode pre = <span class="keyword">null</span>, next = <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">while</span> (head.next != <span class="keyword">null</span>) &#123;</span><br><span class="line">            next = head.next;</span><br><span class="line">            head.next = pre;</span><br><span class="line">            pre = head;</span><br><span class="line">            head = next;</span><br><span class="line">        &#125;</span><br><span class="line">        head.next = pre;</span><br><span class="line">        <span class="keyword">return</span> head;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;JAVA中的反转操作（二）-——-反转链表&quot;&gt;&lt;a href=&quot;#JAVA中的反转操作（二）-——-反转链表&quot; class=&quot;headerlink&quot; title=&quot;JAVA中的反转操作（二） —— 反转链表&quot;&gt;&lt;/a&gt;JAVA中的反转操作（二） —— 反转链表&lt;/h1&gt;&lt;h2 id=&quot;节点定义&quot;&gt;&lt;a href=&quot;#节点定义&quot; class=&quot;headerlink&quot; title=&quot;节点定义&quot;&gt;&lt;/a&gt;节点定义&lt;/h2&gt;&lt;p&gt;对于链表的节点定义如下，这里只给出单链表的结构&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="链表" scheme="https://Naskete.github.io/tags/%E9%93%BE%E8%A1%A8/"/>
+    
+      <category term="链表反转" scheme="https://Naskete.github.io/tags/%E9%93%BE%E8%A1%A8%E5%8F%8D%E8%BD%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法学习笔记-单调栈</title>
+    <link href="https://naskete.github.io/2023/02/27/algorithm/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%8D%95%E8%B0%83%E6%A0%88/"/>
+    <id>https://naskete.github.io/2023/02/27/algorithm/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%8D%95%E8%B0%83%E6%A0%88/</id>
+    <published>2023-02-27T13:32:28.000Z</published>
+    <updated>2023-07-29T16:22:01.832Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="算法学习笔记-单调栈"><a href="#算法学习笔记-单调栈" class="headerlink" title="算法学习笔记-单调栈"></a>算法学习笔记-单调栈</h1><p>今天碰到一道题，印象中感觉可以用单调栈做的，但是发现自己一下子想不起来了，所以还是再看看，加深一下印象</p><a id="more"></a><h3 id="单调栈"><a href="#单调栈" class="headerlink" title="单调栈"></a>单调栈</h3><p>单调栈可以分为以下两种</p><ul><li><p>单调增栈</p></li><li><p>单调减栈</p></li></ul><p>单调栈每次操作都保证栈中的值单调递增或递减</p><p>单调栈可以解决的问题：</p><p>每一个元素左边比该元素大/小且<strong>最近</strong>的元素以及右边比该元素大/小且<strong>最近</strong>的元素</p><p>例如：</p><p>给定一个数组，假设我要找到每个数右边比它小的第一个数</p><figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line"><span class="number">7</span>, <span class="number">1</span>, <span class="number">5</span>, <span class="number">3</span>, <span class="number">6</span>, <span class="number">4</span></span><br></pre></td></tr></table></figure><p>则单调栈的过程为：</p><ol><li><p>push 7 </p></li><li><p>1 &lt; 7 故 pop 7 , push 1，得到7右边第一个比它小的值1 </p></li><li><p>5 &gt; 1 故 push 5</p></li><li><p>3 &lt; 5 故 pop 5, push 3， 得到5右边第一个比它小的值3</p></li><li><p>6 &gt; 3 故 push 6</p></li><li><p>4 &lt; 6 故 pop 6, push 4，得到6右边第一个比它小的值4</p></li></ol><p>栈内元素从栈顶到栈底分别为 ： 4 3 1 </p><h3 id="LeetCode-题"><a href="#LeetCode-题" class="headerlink" title="LeetCode 题"></a>LeetCode 题</h3><h4 id="496-下一个更大元素-I-力扣（LeetCode）"><a href="#496-下一个更大元素-I-力扣（LeetCode）" class="headerlink" title="496. 下一个更大元素 I - 力扣（LeetCode）"></a><a href="https://leetcode.cn/problems/next-greater-element-i" target="_blank" rel="noopener">496. 下一个更大元素 I - 力扣（LeetCode）</a></h4><p>题目大意：</p><p>给定两个数组 nums1,nums2. nums2中的元素包含nums1的元素，但是顺序不同</p><p>找出nums2中<strong>各元素</strong>的<strong>右边第一个</strong>比它<strong>大</strong>的值，没有就取-1</p><p>按nums1中的顺序返回对应的值</p><p>输入：</p><figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line">nums1 = [<span class="number">1</span>, <span class="number">3</span>, <span class="number">4</span>] nums2 = [<span class="number">1</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">2</span>]</span><br></pre></td></tr></table></figure><p>return : </p><figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line">[<span class="number">3</span>, <span class="number">4</span>, <span class="number">-1</span>]</span><br><span class="line">解释： nums2 中 <span class="number">1</span> 右边第一个比它大的是<span class="number">3</span>,<span class="number">3</span>右边第一个比它大的是<span class="number">4</span>，<span class="number">4</span>之后没有比它大的，所以是<span class="number">-1</span></span><br></pre></td></tr></table></figure><p>代码如下：</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">int</span>[] nextGreaterElement(<span class="keyword">int</span>[] nums1, <span class="keyword">int</span>[] nums2) &#123;</span><br><span class="line">        <span class="keyword">int</span> len = nums1.length;</span><br><span class="line">        Stack&lt;Integer&gt; stack = <span class="keyword">new</span> Stack&lt;&gt;();</span><br><span class="line">        Map&lt;Integer, Integer&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">        <span class="comment">// 遍历，借助单调栈统计</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; nums2.length; i++) &#123;</span><br><span class="line">            <span class="keyword">while</span> (!stack.isEmpty() &amp;&amp; nums2[i] &gt; stack.peek()) &#123;</span><br><span class="line">                <span class="keyword">int</span> top = stack.pop();</span><br><span class="line">                map.put(top, nums2[i]);</span><br><span class="line">            &#125;</span><br><span class="line">            map.put(nums2[i], -<span class="number">1</span>); <span class="comment">// 暂存 -1 找到后会出栈</span></span><br><span class="line">            stack.push(nums2[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span>[] res = <span class="keyword">new</span> <span class="keyword">int</span>[len];</span><br><span class="line">        <span class="keyword">int</span> idx = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> num : nums1) &#123;</span><br><span class="line">            res[idx++] = map.get(num);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>官方给出的题解为从后往前遍历，可以省去处理栈的部分，因为栈是先进后出的结构</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = nums2.length - <span class="number">1</span>; i &gt;= <span class="number">0</span>; --i) &#123;</span><br><span class="line">    <span class="keyword">int</span> num = nums2[i];</span><br><span class="line">    <span class="keyword">while</span> (!stack.isEmpty() &amp;&amp; num &gt;= stack.peek()) &#123;</span><br><span class="line">         stack.pop();</span><br><span class="line">    &#125;</span><br><span class="line">    map.put(num, stack.isEmpty() ? -<span class="number">1</span> : stack.peek());</span><br><span class="line">    stack.push(num);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="503-下一个更大元素-II-力扣（LeetCode）"><a href="#503-下一个更大元素-II-力扣（LeetCode）" class="headerlink" title="503. 下一个更大元素 II - 力扣（LeetCode）"></a><a href="https://leetcode.cn/problems/next-greater-element-ii/" target="_blank" rel="noopener">503. 下一个更大元素 II - 力扣（LeetCode）</a></h4><p>题目大意：</p><p>给定一个环形数组，找出每一个元素后比它大的第一个数</p><p>输入：</p><figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line">nums = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">3</span>]</span><br></pre></td></tr></table></figure><p>return:</p><figure class="highlight json"><table><tr><td class="code"><pre><span class="line">[<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">-1</span>,<span class="number">4</span>]</span><br></pre></td></tr></table></figure><p>因为添加了一个环形条件，就相当于既包括后面，又包括前面</p><p>我们可以在处理时将数组复制后添加在原数组后面</p><p>具体处理为：取数组长度的两倍，然后索引值取 nums[i % len]，为了方便存储结果，我们在栈中存储索引值</p><p>代码如下：</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">int</span>[] nextGreaterElements(<span class="keyword">int</span>[] nums) &#123;</span><br><span class="line">        Stack&lt;Integer&gt; stack = <span class="keyword">new</span> Stack&lt;&gt;();</span><br><span class="line">        <span class="keyword">int</span> len = nums.length;</span><br><span class="line">        <span class="keyword">int</span>[] res = <span class="keyword">new</span> <span class="keyword">int</span>[len];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len; i++) &#123;</span><br><span class="line">            res[i] = -<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">2</span> * len - <span class="number">1</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">while</span> (!stack.isEmpty() &amp;&amp; nums[i%len] &gt; nums[stack.peek()]) &#123;</span><br><span class="line">                <span class="keyword">int</span> idx = stack.pop();</span><br><span class="line">                res[idx] = nums[i%len];</span><br><span class="line">            &#125;</span><br><span class="line">            stack.push(i%len);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="556-下一个更大元素-III-力扣（LeetCode）"><a href="#556-下一个更大元素-III-力扣（LeetCode）" class="headerlink" title="556. 下一个更大元素 III - 力扣（LeetCode）"></a><a href="https://leetcode.cn/problems/next-greater-element-iii/" target="_blank" rel="noopener">556. 下一个更大元素 III - 力扣（LeetCode）</a></h4><p>题目大意：</p><p>给定一个正整数 n ，找出：由重新排列 n 中存在的每位数字组成，并且其值大于 n的最小整数 。不存在返回 -1 。</p><p>并且要求返回的整数是32 位整数 ，如果答案不是 32 位整数返回 -1 </p><p>示例：</p><figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line">输入: n = <span class="number">12</span></span><br><span class="line">输出: <span class="number">21</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">输入: n = <span class="number">21</span></span><br><span class="line">输出: <span class="number">-1</span></span><br></pre></td></tr></table></figure><p>解题思路：</p><p>给的示例比较简单，我们换一个数字</p><figure class="highlight makefile"><table><tr><td class="code"><pre><span class="line"><span class="section">输入: 12443322</span></span><br><span class="line"><span class="section">输出: ?</span></span><br></pre></td></tr></table></figure><p>我们先出满足题意的答案，即比该数字大的且最接近他的数字</p><p>13222344</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;算法学习笔记-单调栈&quot;&gt;&lt;a href=&quot;#算法学习笔记-单调栈&quot; class=&quot;headerlink&quot; title=&quot;算法学习笔记-单调栈&quot;&gt;&lt;/a&gt;算法学习笔记-单调栈&lt;/h1&gt;&lt;p&gt;今天碰到一道题，印象中感觉可以用单调栈做的，但是发现自己一下子想不起来了，所以还是再看看，加深一下印象&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="单调栈" scheme="https://Naskete.github.io/tags/%E5%8D%95%E8%B0%83%E6%A0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JAVA中的反转操作（一）</title>
+    <link href="https://naskete.github.io/2023/02/19/algorithm/java%E4%B8%AD%E7%9A%84%E5%8F%8D%E8%BD%AC%E6%93%8D%E4%BD%9C%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>https://naskete.github.io/2023/02/19/algorithm/java%E4%B8%AD%E7%9A%84%E5%8F%8D%E8%BD%AC%E6%93%8D%E4%BD%9C%EF%BC%88%E4%B8%80%EF%BC%89/</id>
+    <published>2023-02-19T13:49:56.000Z</published>
+    <updated>2023-07-08T13:54:14.794Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="JAVA中的反转操作（一）——-字符串"><a href="#JAVA中的反转操作（一）——-字符串" class="headerlink" title="JAVA中的反转操作（一）—— 字符串"></a>JAVA中的反转操作（一）—— 字符串</h1><h3 id="转换为char数组"><a href="#转换为char数组" class="headerlink" title="转换为char数组"></a>转换为char数组</h3><a id="more"></a><p>我一般也会选择使用char数组进行操作</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ReverseString</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">reverse</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">char</span>[] arr = s.toCharArray();</span><br><span class="line">        <span class="keyword">int</span> l = <span class="number">0</span>, r = arr.length - <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span> (l &lt; r) &#123;</span><br><span class="line">            <span class="keyword">char</span> tmp = arr[l];</span><br><span class="line">            arr[l++] = arr[r];</span><br><span class="line">            arr[r--] = tmp;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> String.valueOf(arr);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="通过StringBuilder-StringBuffer的reverse方法"><a href="#通过StringBuilder-StringBuffer的reverse方法" class="headerlink" title="通过StringBuilder/StringBuffer的reverse方法"></a>通过StringBuilder/StringBuffer的reverse方法</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">reverse</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> StringBuilder(s).reverse().toString();</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> StringBuffer(s).reverse().toString();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;JAVA中的反转操作（一）——-字符串&quot;&gt;&lt;a href=&quot;#JAVA中的反转操作（一）——-字符串&quot; class=&quot;headerlink&quot; title=&quot;JAVA中的反转操作（一）—— 字符串&quot;&gt;&lt;/a&gt;JAVA中的反转操作（一）—— 字符串&lt;/h1&gt;&lt;h3 id=&quot;转换为char数组&quot;&gt;&lt;a href=&quot;#转换为char数组&quot; class=&quot;headerlink&quot; title=&quot;转换为char数组&quot;&gt;&lt;/a&gt;转换为char数组&lt;/h3&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://Naskete.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
+      <category term="算法" scheme="https://Naskete.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java中的Queue、Stack、PriorityQueue</title>
+    <link href="https://naskete.github.io/2023/02/19/essay/java%E4%B8%AD%E7%9A%84Queue%E3%80%81Stack%E3%80%81PriorityQueue/"/>
+    <id>https://naskete.github.io/2023/02/19/essay/java%E4%B8%AD%E7%9A%84Queue%E3%80%81Stack%E3%80%81PriorityQueue/</id>
+    <published>2023-02-19T11:56:39.000Z</published>
+    <updated>2023-02-28T15:25:40.198Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="java中的Queue、Stack、PriorityQueue"><a href="#java中的Queue、Stack、PriorityQueue" class="headerlink" title="java中的Queue、Stack、PriorityQueue"></a>java中的Queue、Stack、PriorityQueue</h1><p>算法中除去常用的ArrayList、LinkedList，还会用到Queue、Stack、PriorityQueue等结构</p><a id="more"></a><h2 id="Queue"><a href="#Queue" class="headerlink" title="Queue"></a>Queue</h2><p>队列，FIFO(first in first out)，先进先出的数据结构，只要类型允许可以添加null</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">add(E e)     <span class="comment">// 添加元素，到达容量上限无法添加会抛出IllegalStateException异常</span></span><br><span class="line">offer(E e)   <span class="comment">// 添加元素，到达容量上限无法添加不抛出异常，返回false</span></span><br><span class="line">poll()    <span class="comment">// 返回第一个元素，并在队列中删除</span></span><br><span class="line">element() <span class="comment">// 返回第一个元素 ，不删除</span></span><br><span class="line">peek()    <span class="comment">// 返回第一个元素 ，不删除</span></span><br><span class="line">isEmpty() <span class="comment">// 判断是否为空</span></span><br></pre></td></tr></table></figure><p>遍历</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Queue&lt;Integer&gt; queue = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line"><span class="keyword">int</span> size = queue.size();</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; size; i++)&#123;</span><br><span class="line">    <span class="comment">// code</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="Stack"><a href="#Stack" class="headerlink" title="Stack"></a>Stack</h2><p>栈，FILO(first in last out)，先进后出的数据结构</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">push()    <span class="comment">// 添加元素</span></span><br><span class="line">pop()     <span class="comment">// 弹出元素</span></span><br><span class="line">peek()    <span class="comment">// 取出栈顶元素</span></span><br><span class="line">isEmpte() <span class="comment">// 判断是否为空</span></span><br></pre></td></tr></table></figure><p>遍历</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Queue&lt;Integer&gt; stack = <span class="keyword">new</span> Queue&lt;&gt;();</span><br><span class="line"><span class="keyword">while</span> (!stack.isEmpty()) &#123;</span><br><span class="line">    <span class="comment">// code</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="PriorityQueue"><a href="#PriorityQueue" class="headerlink" title="PriorityQueue"></a>PriorityQueue</h2><p>优先队列，堆结构，PriorityQueue 默认是小根堆，可以通过自定义比较器构建大顶堆，不能添加null</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">add()      <span class="comment">// 添加元素</span></span><br><span class="line">offer()    <span class="comment">// 添加元素</span></span><br><span class="line">peek()     <span class="comment">// 取出不删除</span></span><br><span class="line">poll()     <span class="comment">// 取出元素并删除</span></span><br><span class="line">isEmpty()  <span class="comment">// 判断是否为空</span></span><br></pre></td></tr></table></figure><p>遍历参考Queue</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;java中的Queue、Stack、PriorityQueue&quot;&gt;&lt;a href=&quot;#java中的Queue、Stack、PriorityQueue&quot; class=&quot;headerlink&quot; title=&quot;java中的Queue、Stack、PriorityQueue&quot;&gt;&lt;/a&gt;java中的Queue、Stack、PriorityQueue&lt;/h1&gt;&lt;p&gt;算法中除去常用的ArrayList、LinkedList，还会用到Queue、Stack、PriorityQueue等结构&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="JAVA" scheme="https://Naskete.github.io/tags/JAVA/"/>
+    
+      <category term="Queue" scheme="https://Naskete.github.io/tags/Queue/"/>
+    
+      <category term="Stack" scheme="https://Naskete.github.io/tags/Stack/"/>
+    
+      <category term="PriorityQueue" scheme="https://Naskete.github.io/tags/PriorityQueue/"/>
     
   </entry>
   
