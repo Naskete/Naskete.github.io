@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://naskete.github.io/"/>
-  <updated>2025-08-25T10:57:02.759Z</updated>
+  <updated>2025-08-25T11:08:13.534Z</updated>
   <id>https://naskete.github.io/</id>
   
   <author>
@@ -21,16 +21,17 @@
     <link href="https://naskete.github.io/2025/08/25/essay/algorithm-note/"/>
     <id>https://naskete.github.io/2025/08/25/essay/algorithm-note/</id>
     <published>2025-08-25T10:53:53.000Z</published>
-    <updated>2025-08-25T10:57:02.759Z</updated>
+    <updated>2025-08-25T11:08:13.534Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p>交换两个数，不使用额外空间</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">swap</span><span class="params">(<span class="keyword">int</span>[] arr, <span class="keyword">int</span> i, <span class="keyword">int</span> j)</span> </span>&#123;</span><br><span class="line">    arr[i] = arr[i] ^ arr[j];</span><br><span class="line">    arr[j] = arr[i] ^ arr[j];</span><br><span class="line">    arr[i] = arr[i] ^ arr[j];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="运算"><a href="#运算" class="headerlink" title="运算"></a>运算</h2><p>获取一个数最右边的1</p><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">rightOne = eor ^ (~eor + <span class="number">1</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p>交换两个数，不使用额外空间</p><p><strong>PS：前提条件为 i和j不想等</strong></p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">swap</span><span class="params">(<span class="keyword">int</span>[] arr, <span class="keyword">int</span> i, <span class="keyword">int</span> j)</span> </span>&#123;</span><br><span class="line">    arr[i] = arr[i] ^ arr[j];</span><br><span class="line">    arr[j] = arr[i] ^ arr[j];</span><br><span class="line">    arr[i] = arr[i] ^ arr[j];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="运算"><a href="#运算" class="headerlink" title="运算"></a>运算</h2><p>获取一个数最右边的1</p><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">rightOne = eor ^ (~eor + <span class="number">1</span>)</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
         &lt;h2 id=&quot;数组&quot;&gt;&lt;a href=&quot;#数组&quot; class=&quot;headerlink&quot; title=&quot;数组&quot;&gt;&lt;/a&gt;数组&lt;/h2&gt;&lt;p&gt;交换两个数，不使用额外空间&lt;/p&gt;
-&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=
+&lt;p&gt;&lt;strong&gt;PS：前提条件为 i和j不想等&lt;/strong&gt;&lt;/p&gt;
+&lt;figure clas
       
     
     </summary>
